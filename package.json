@@ -1,0 +1,50 @@
+{
+  "name": "3alora-ops",
+  "version": "25.0.0-rc2",
+  "private": true,
+  "description": "3 Alora Enterprise: teams, orders, estimates and audited monthly finance",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node tools/check-syntax.cjs",
+    "test:smoke": "node tests/smoke.test.js",
+    "test:e2e": "node tests/e2e.test.js",
+    "test": "npm run check && node tools/run-tests.cjs",
+    "test:v16": "node tests/v16-ui-contract.test.js && node tests/v16-sales-workflow.test.js",
+    "test:release": "node tests/release.test.js && node tests/production-guard.test.js",
+    "test:persistence": "node tests/persistence.test.js",
+    "test:update-persistence": "node tests/update-persistence.test.js",
+    "test:login-lock": "node tests/login-lock.test.js",
+    "test:inventory": "node tests/stock-domain.test.js && node tests/inventory.test.js && node tests/inventory-import.test.js && node tests/stock-sku.test.js",
+    "test:import-preview": "node tests/import-preview.test.js",
+    "test:v15": "node tests/v15-core.test.js && node tests/v15-migration.test.js && node tests/v15-import-batch.test.js",
+    "test:v17": "node tests/v17-operations.test.js",
+    "test:collab": "node tests/chat-v177.test.js",
+    "test:chat": "node tests/chat-access.test.js && node tests/chat-migration-repair.test.js && node tests/chat-groups.test.js && node tests/chat-v177.test.js",
+    "test:mobile": "node tests/chat-mobile.test.js",
+    "test:intake": "node tests/multi-source-intake.test.js",
+    "test:adapters": "node tools/run-python-tests.cjs && node tests/intake-adapters.test.js",
+    "test:pwa": "node tests/pwa-web-push.test.js",
+    "test:v18": "node tests/v18.test.js",
+    "test:realtime-client": "node tests/realtime-client.test.js",
+    "benchmark": "node tools/benchmark.cjs",
+    "test:ui": "node tests/ui-v181-contract.test.js && node tests/ui-core.test.js && node tests/chat-client.test.js && node tests/shell-client.test.js && node tests/realtime-v181-client.test.js && node tests/ui-api.test.js",
+    "test:gallery": "node tests/product-gallery.test.js",
+    "test:gallery-ui": "node tests/product-gallery-ui.test.js",
+    "test:alora": "node tests/alora-appsscript-contract.test.js && node tests/alora-price-appsscript-contract.test.js && node tests/alora-etsy-sync.test.js",
+    "test:safe-upgrade": "node tests/safe-upgrade.test.js",
+    "test:v20": "node tests/v20-packing-and-appscript.test.js && node tests/v20-integrated-center.test.js && node tests/alora-admin-menu-links.test.js && node tests/alora-embed-http.test.js && node tests/legacy-team-guard-autodetect.test.js",
+    "test:enterprise": "node tests/enterprise.test.js",
+    "dev": "node tools/preview.cjs",
+    "test:legacy-chain": "npm run check && npm run test:release && npm run test:v15 && npm run test:persistence && npm run test:update-persistence && npm run test:login-lock && npm run test:import-preview && npm run test:smoke && npm run test:e2e && npm run test:inventory && npm run test:v16 && npm run test:v17 && npm run test:chat && npm run test:mobile && npm run test:intake && npm run test:adapters && npm run test:pwa && node tests/ui-v1771.test.js && node tests/v18.test.js && node tests/realtime-client.test.js && node tests/migrate-data.test.js && node tests/production-profile.test.js && node tests/ui-core.test.js && node tests/chat-client.test.js && node tests/shell-client.test.js && node tests/ui-api.test.js && npm run test:ui && npm run test:gallery",
+    "test:enterprise-appscript": "node tests/enterprise-appsscript.test.js",
+    "test:v25": "node tests/v25-sku.test.js && node tests/v25-http.test.js && node tests/v25-safety.test.js && node tests/v25-rc2.test.js && node tests/v25-staging.test.js",
+    "test:production-config": "node tests/production-guard.test.js"
+  },
+  "engines": {
+    "node": ">=24.0.0 <25"
+  },
+  "dependencies": {
+    "sharp": "0.35.5",
+    "web-push": "^3.6.7"
+  }
+}

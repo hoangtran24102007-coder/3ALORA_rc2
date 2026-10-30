@@ -1,0 +1,17 @@
+3 ALORA V25 RC2 — MA NGUON KIEM THU (CHUA NGHIEM THU PRODUCTION)
+Phien ban: 25.0.0-rc2 | Schema: 33 | Ngay: 29-10-2026
+
+1. Giai nen RIENG; KHONG ghi de thu muc hoac database dang chay.
+2. Cai Node.js 24.x, Python 3.10+. Mo CMD tai thu muc co package.json.
+3. Chay: npm ci --no-audit --no-fund
+4. Chay: START_V25_RC2_STAGING.bat
+5. Mo: http://127.0.0.1:3025/enterprise.html
+6. Tai khoan khoi tao trong %LOCALAPPDATA%\3Alora\V25RC2Staging\STAGING_LOGIN.json.
+7. Doc docs/V25_RC2_HUONG_DAN_CHAY_THU.md va docs/V25_IMPLEMENTATION.md.
+8. Ket qua test va cac phan con thieu: docs/V25_RC2_QA_REPORT.md.
+9. Nang cap/backup/rollback: docs/V25_RC2_NANG_CAP_ROLLBACK.md.
+
+Domain ops.3alora.io.vn va service hien tai chua bi thay doi.
+ZIP khong kem database, mat khau, config production hay node_modules.
+Anh preview trong artifacts/v25-rc2/previews dung DU LIEU QA CACH LY.
+Bao cao Preview/RC1 con trong goi la tai lieu lich su; uu tien tai lieu RC2.

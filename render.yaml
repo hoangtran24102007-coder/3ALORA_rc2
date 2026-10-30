@@ -1,0 +1,51 @@
+services:
+  - type: web
+    name: 3alora-ops
+    runtime: node
+    plan: starter
+    buildCommand: npm ci --omit=dev --no-audit --no-fund
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: TRUST_PROXY
+        value: "1"
+      - key: FORCE_HTTPS
+        value: "1"
+      - key: COOKIE_SECURE
+        value: "1"
+      - key: DB_PATH
+        value: /var/data/3alora.sqlite
+      - key: PERSIST_ROOT
+        value: /var/data
+      - key: ALORA_ADMIN_PASSWORD
+        sync: false
+      - key: BACKUP_ENCRYPTION_KEY
+        sync: false
+      - key: TRUSTED_PROXY_IPS
+        sync: false
+      - key: VAPID_PUBLIC_KEY
+        sync: false
+      - key: VAPID_PRIVATE_KEY
+        sync: false
+      - key: VAPID_SUBJECT
+        sync: false
+      - key: BACKUP_DIR
+        value: /var/data/backups
+      - key: BACKUP_KEEP
+        value: "30"
+      - key: BACKUP_INTERVAL_HOURS
+        value: "24"
+      - key: GLOBAL_RATE_LIMIT_PER_MIN
+        value: "300"
+      - key: MAX_SESSIONS_PER_USER
+        value: "8"
+      - key: SESSION_HOURS
+        value: "12"
+      - key: PUBLIC_BASE_URL
+        sync: false
+    disk:
+      name: 3alora-data
+      mountPath: /var/data
+      sizeGB: 5

@@ -1,0 +1,21 @@
+3 ALORA ENTERPRISE V21 RC3 — BAT DAU TAI DAY
+
+1. Giai nen vao thu muc rieng; khong de len ban dang chay.
+2. Giu nguyen config.env va DB_PATH/EVIDENCE_DIR/BACKUP_DIR dang dung.
+3. Cai Node 24 va Python >=3.10 cho ALL USERS; xem docs/INSTALL_WINDOWS.md.
+4. Chay CHUAN_BI_3ALORA_WINDOWS.bat. Cho backup va dien tap tren ban sao PASS.
+   Bao cao nam tai BACKUP_DIR/upgrade-rehearsals/run-.../REHEARSAL_REPORT.json.
+   Server that khong bi dung trong buoc nay.
+5. Neu chua co VAPID: chay CAU_HINH_THONG_BAO_3ALORA_WINDOWS.bat.
+   Cong cu giu khoa hop le da co; config khong bi in ra man hinh.
+6. Sau khi da doi chieu ban sao: tao backup moi va dung server cu dung cach.
+   Neu service 3AloraEnterprise tro toi thu muc ban truoc: STOP, REMOVE_SERVICE,
+   sau do chay START truc tiep ban moi va cai lai INSTALL_SERVICE tu ban RC2.
+7. Chay START_3ALORA_WINDOWS.bat, HEALTH_3ALORA_WINDOWS.bat va CHECK_DOMAIN_3ALORA_WINDOWS.bat.
+8. Khi nghiem thu chay truc tiep xong, dung bang Ctrl+C, cai service bang Administrator,
+   chay START va thu reboot Windows. Chua co bang chung reboot trong goi nay.
+9. Ket noi Google theo docs/GOOGLE_SYNC_GUIDE.md; duyet Cost/Ship that truoc khi ap dung.
+10. Tren dien thoai: cai PWA, bat thong bao, gui thu tu Cai dat va doi chieu PUSH_ACCEPTANCE.md.
+
+Tai lieu day du: docs/INSTALL_WINDOWS.md, docs/QA_REPORT.md, docs/DELIVERY_SCOPE.md.
+Goi chi chua ma nguon. Khong xoa config.env/database cu. Khong gui backup/config co secret vao chat.

@@ -1,0 +1,16 @@
+MOI: XEM HUONG DAN GIAO DIEN / STAGING o HUONG_DAN_GIAO_DIEN_NEUMORPHIC_3ALORA.md
+Giao dien xem truoc (khong can server): XEM_TRUOC_GIAO_DIEN_LOGIN_3ALORA.html
+
+MOI: XEM HUONG DAN GIAO DIEN / STAGING o HUONG_DAN_GIAO_DIEN_NEUMORPHIC_3ALORA.md
+Giao dien xem truoc (khong can server): XEM_TRUOC_GIAO_DIEN_LOGIN_3ALORA.html
+
+3 ALORA V22 EXECUTIVE DARK LUXURY - PREVIEW 3
+
+Day la ban staging, chua cai production.
+1. Doc V22_EXECUTIVE_DARK_README.md.
+2. Node.js 24.x, npm.cmd ci --no-audit --no-fund, npm.cmd test.
+3. Chay START_V22_LUXURY_STAGING.bat; mo http://127.0.0.1:3013.
+4. Xem gallery artifacts/v22-luxury/index.html.
+5. Doc docs/V22_LUXURY_QA.md va V22_LUXURY_ACCEPTANCE.md.
+
+KHONG ghi de V21 RC2/RC3 dang chay. KHONG dung INSTALL_SERVICE, RESTORE, START cu de thu giao dien. KHONG chep config/database production vao day. Domain ops.3alora.io.vn giu nguyen.

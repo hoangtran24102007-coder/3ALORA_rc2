@@ -1,0 +1,65 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 3000
+      PERSIST_ROOT: /data
+      DB_PATH: /data/3alora.sqlite
+      BACKUP_DIR: /data/backups
+      BACKUP_KEEP: ${BACKUP_KEEP:-30}
+      BACKUP_INTERVAL_HOURS: ${BACKUP_INTERVAL_HOURS:-24}
+      SESSION_HOURS: ${SESSION_HOURS:-12}
+      GLOBAL_RATE_LIMIT_PER_MIN: ${GLOBAL_RATE_LIMIT_PER_MIN:-300}
+      MAX_SESSIONS_PER_USER: ${MAX_SESSIONS_PER_USER:-8}
+      TRUSTED_PROXY_IPS: ${TRUSTED_PROXY_IPS:-172.30.48.2}
+      BACKUP_ENCRYPTION_KEY: ${BACKUP_ENCRYPTION_KEY:?Set a private backup encryption passphrase}
+      VAPID_PUBLIC_KEY: ${VAPID_PUBLIC_KEY:-}
+      VAPID_PRIVATE_KEY: ${VAPID_PRIVATE_KEY:-}
+      VAPID_SUBJECT: ${VAPID_SUBJECT:-}
+      ALLOW_PUBLIC_SHEET_IMPORT: ${ALLOW_PUBLIC_SHEET_IMPORT:-0}
+      LOGIN_MAX_FAILURES: ${LOGIN_MAX_FAILURES:-10}
+      LOGIN_LOCK_MINUTES: ${LOGIN_LOCK_MINUTES:-5}
+      TRUST_PROXY: 1
+      FORCE_HTTPS: 1
+      COOKIE_SECURE: 1
+      PUBLIC_BASE_URL: https://${DOMAIN}
+      ALORA_ADMIN_PASSWORD: ${ALORA_ADMIN_PASSWORD:-}
+    volumes:
+      - alora_data:/data
+    networks: [alora_net]
+    security_opt:
+      - no-new-privileges:true
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on: [app]
+    environment:
+      DOMAIN: ${DOMAIN}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      alora_net:
+        ipv4_address: 172.30.48.2
+    security_opt:
+      - no-new-privileges:true
+
+networks:
+  alora_net:
+    ipam:
+      config:
+        - subnet: 172.30.48.0/24
+
+volumes:
+  alora_data:
+  caddy_data:
+  caddy_config:

@@ -1,0 +1,2 @@
+# Needed only for server-side PDF exports. XLSX price reader uses the Python standard library.
+reportlab==4.4.9

@@ -1,0 +1,59 @@
+{
+  "artifact": "3ALORA_V25_RC2_WINDOWS_SOURCE",
+  "version": "25.0.0-rc2",
+  "schemaVersion": 33,
+  "status": "RELEASE_CANDIDATE_NO_GO_PENDING_ACCEPTANCE",
+  "productionApproved": false,
+  "entrypoint": "server.js",
+  "webEntrypoint": "public/enterprise.html",
+  "sourceBaseline": "3ALORA_V25_PRODUCTION_CANDIDATE_RC1_WINDOWS.zip",
+  "schemaMigrations": [
+    "032-v25-smart-sku.js",
+    "033-v25-safety-gates.js"
+  ],
+  "nodeRuntimeRequired": "24.x",
+  "testedRuntime": "Node 24.22.1 / Linux",
+  "newControls": [
+    "Scanner and V25 workflow synchronized; QC retained",
+    "Explicit bulk selection and replay identity",
+    "Line and workflow revision conflict protection; failed row rollback",
+    "Reviewed production changes; quote revalidation before factory acknowledgement",
+    "Active Team/ACC SKU grants and generic unauthorized finance errors",
+    "Editable bulk preview, safe clone and server SKU search",
+    "Executive Dark champagne login and responsive SKU workspace",
+    "Dedicated localhost staging data/config on port 3025"
+  ],
+  "productionGate": "KIEM_TRA_TRUOC_CHAY_THAT_V25.bat",
+  "limitations": [
+    "Windows Server/service/domain and real mobile camera/push acceptance pending",
+    "Production database clone migration and restore acceptance pending",
+    "Full multi-item shipping and partner/Team/ACC pricing integration incomplete",
+    "Advanced bulk finalize/version restore/mapping/template/column-mapping UI incomplete",
+    "Business dictionary ambiguity and legacy SKU catalogue reconciliation pending",
+    "Performance/security independent audit pending"
+  ],
+  "qa": "docs/V25_RC2_QA_REPORT.md",
+  "deployment": "docs/V25_RC2_NANG_CAP_ROLLBACK.md",
+  "baselineManifest": "legacy/manifests/V22_BASELINE_RELEASE_MANIFEST.json",
+  "testSummary": {
+    "suite": "npm test",
+    "passed": 69,
+    "total": 69,
+    "failed": 0,
+    "exitCode": 0,
+    "runtime": "v24.22.1 / linux",
+    "executedAt": "2026-10-29T00:34:35.677Z",
+    "pythonTests": {
+      "passed": 5,
+      "total": 5
+    },
+    "notRun": [
+      {
+        "test": "product-gallery-ui.test.js",
+        "reason": "Separate legacy browser suite requires its own browser runtime. Enterprise UI QA uses the supported browser preview."
+      }
+    ],
+    "productionAcceptance": "NO-GO"
+  },
+  "staging": "START_V25_RC2_STAGING.bat"
+}

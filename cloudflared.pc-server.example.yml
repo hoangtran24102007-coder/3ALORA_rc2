@@ -1,0 +1,8 @@
+# Optional config-file mode. Token/service mode is usually simpler on Windows.
+tunnel: YOUR_TUNNEL_UUID
+credentials-file: C:\Users\YOUR_WINDOWS_USER\.cloudflared\YOUR_TUNNEL_UUID.json
+
+ingress:
+  - hostname: ops.3alora.io.vn
+    service: http://127.0.0.1:3000
+  - service: http_status:404

@@ -1,0 +1,35 @@
+3 ALORA V18.3 - BO SUNG MENU TEAM / ACC / COST / SHIP (STAGING)
+============================================================
+Muc dich: Sua giao dien cho Admin nhin thay cac module da co trong V18.3.
+Khong thay doi database / migration / endpoint API trong ban sua menu.
+
+Thay doi:
+1. Menu trai (chi Admin): Team & ACC Etsy; Bang gia Cost / Ship;
+   Don hang Etsy; Tai chinh Team / ACC.
+2. Trang "Tai khoan & phan quyen": 4 loi tat vao cac module.
+3. Bang gia Cost/Ship tren trang /alora-admin.html#pricing.
+4. Giua nguyen menu va phan quyen cu.
+
+QUAN TRONG:
+- Day KHONG phai ban full production; phan quyen legacy Team / Apps Script Gmail
+  chua duoc kiem chung tron ven. KHONG cai de len production.
+- De test: giai nen vao thu muc moi, khoi dong STAGING rieng cong 32189
+  sau khi da cai node_modules / npm ci va tao password staging.
+- Truy cap http://127.0.0.1:32189 va dang nhap Admin.
+- Sau khi vao TAI KHOAN & QUYEN, xem 4 nut moi; hoac vao truc tiep
+  http://127.0.0.1:32189/alora-admin.html.
+- Neu http://localhost:3000/alora-admin.html bao 404 thi website tren
+  cong 3000 chua chay du backend V18.3. Ban sua UI khong giai quyet duoc
+  viec server dang chay ban cu.
+- Tranh sua DB, URL domain, Cloudflare, token hoac trigger production.
+
+Test da chay cho sua menu:
+node tests/alora-admin-menu-links.test.js
+node tests/ui-v181-contract.test.js
+node tools/check-syntax.cjs
+node tests/release.test.js
+node tests/alora-price-appsscript-contract.test.js
+node tests/alora-appsscript-contract.test.js
+
+Luu y: Tinh nang Bang gia hien con can quy tac gia da duyet va nhap JSON;
+khong duoc coi viec hien menu la du nghiem thu tinh phi that.

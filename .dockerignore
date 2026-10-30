@@ -1,0 +1,13 @@
+node_modules
+.git
+.env
+.env.*
+data/*.sqlite
+data/*.sqlite-*
+data/INITIAL_PASSWORDS.txt
+data/backups
+*.zip
+
+.npm-cache
+*.log
+test-results

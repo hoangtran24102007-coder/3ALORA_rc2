@@ -1,0 +1,2429 @@
+{
+  "artifact": "3ALORA_V25_RC2_WINDOWS_SOURCE",
+  "version": "25.0.0-rc2",
+  "schemaVersion": 33,
+  "manifestPurpose": "SHA256 of every packaged file except this manifest; excludes runtime data, private configuration and dependencies",
+  "fileCountExcludingManifest": 484,
+  "files": [
+    {
+      "path": ".dockerignore",
+      "sizeBytes": 137,
+      "sha256": "8f9aaada835608ed2192f94d15fa43c850991d61c84c87e404cbc32436320b97"
+    },
+    {
+      "path": ".env.example",
+      "sizeBytes": 1141,
+      "sha256": "d225b730af13b37b0816e12fdc0b85f25b883393c98d49173ceb46be2c2d95bf"
+    },
+    {
+      "path": ".env.vps.example",
+      "sizeBytes": 1016,
+      "sha256": "9b4989d46c9aee81a679bddd2a4fbe0c59c89352994d79ad1cc3b2d367ca222a"
+    },
+    {
+      "path": ".gitignore",
+      "sizeBytes": 127,
+      "sha256": "69d4a39dd2f6b66b404c87d7ca74d6f1c00730b4ef4a530b617813289b1aced7"
+    },
+    {
+      "path": "00_DOC_TRUOC_KHI_CHAY_V22.txt",
+      "sizeBytes": 865,
+      "sha256": "1d833444e36a8753630ef990f622a4c47fcf2e37bf696fea2df4bdaf059891ad"
+    },
+    {
+      "path": "BACKUP_3ALORA_WINDOWS.bat",
+      "sizeBytes": 206,
+      "sha256": "eef0632417315f77d68abbc4885af8c078a565c2e3fcdd087945c76e38a94c7c"
+    },
+    {
+      "path": "BAT_DAU_TAI_DAY.txt",
+      "sizeBytes": 1463,
+      "sha256": "897a4f0be35b2b52a2414e3b18fedbbc69fddc63ba5a8f74704e16af775af93a"
+    },
+    {
+      "path": "CAU_HINH_THONG_BAO_3ALORA_WINDOWS.bat",
+      "sizeBytes": 199,
+      "sha256": "224ed0a5aa17e1272fb53d844edee434c4b28ef0f23736ad3385583c1fd59f98"
+    },
+    {
+      "path": "CHANGELOG_ENTERPRISE.md",
+      "sizeBytes": 3549,
+      "sha256": "d8f417c4ff703279636d52788e94754260e61384b15bba840bedc2938debe527"
+    },
+    {
+      "path": "CHECK_DOMAIN_3ALORA_WINDOWS.bat",
+      "sizeBytes": 197,
+      "sha256": "9d63d573b0050a75c53e82d754822d12bb2d7ff2b50774e2d75ad2c96b5dd6c5"
+    },
+    {
+      "path": "CHUAN_BI_3ALORA_WINDOWS.bat",
+      "sizeBytes": 193,
+      "sha256": "79f7cebc7e9205a676c784617dbfa753b441661b72f90158be015499e4fbe79e"
+    },
+    {
+      "path": "Caddyfile",
+      "sizeBytes": 113,
+      "sha256": "745f192c037869dbf7d02c08785f51d7a19fd8b0828002dcf3cd010c62877a65"
+    },
+    {
+      "path": "DIEN_TAP_NANG_CAP_3ALORA_WINDOWS.bat",
+      "sizeBytes": 194,
+      "sha256": "9cd2cb15b5d35c67cbe464574d10093bb26d04c14708997f2e1ac3b8a790fb6d"
+    },
+    {
+      "path": "Dockerfile",
+      "sizeBytes": 487,
+      "sha256": "3ed0f7c7074ee3b466968b827142d99957d196673a77538fba91fd947740bae8"
+    },
+    {
+      "path": "HEALTH_3ALORA_WINDOWS.bat",
+      "sizeBytes": 206,
+      "sha256": "cd64f2a4c7273711ca63ab82ea43acaaebe02393abec33e4d2c058bd57e64b90"
+    },
+    {
+      "path": "HUONG_DAN_BAN_V18_3_CO_MENU_TEAM_COST_SHIP.txt",
+      "sizeBytes": 1641,
+      "sha256": "0a4f075c3fc244cd1982b1f9aad24ce19a5f6558ed24ca7e9171f79cdcd4b4fe"
+    },
+    {
+      "path": "HUONG_DAN_GIAO_DIEN_NEUMORPHIC_3ALORA.md",
+      "sizeBytes": 4488,
+      "sha256": "f9d35b522718bb7018ade3c3a607665eb7aa0bd1cf98277f0b77db8e6cf19b1f"
+    },
+    {
+      "path": "INSTALL_3ALORA_WINDOWS.bat",
+      "sizeBytes": 207,
+      "sha256": "276ab9ac37d5a3574e48db74e5b43b565879f9ad06f2b571a3732ad7cef2e4b1"
+    },
+    {
+      "path": "INSTALL_SERVICE_3ALORA_WINDOWS.bat",
+      "sizeBytes": 214,
+      "sha256": "bcb3e7f6eda2f854fd85843006dde7d4de7f3fbfadc5bbfe2c7353e0549f10ba"
+    },
+    {
+      "path": "KIEM_TRA_TRUOC_CHAY_THAT_V25.bat",
+      "sizeBytes": 299,
+      "sha256": "3d4f593653d18fb9b1b61638f826fc38bba1778aa3b70a2497e3a3cc51293b28"
+    },
+    {
+      "path": "MAU_SHEETS_NHAP_GIA_V16.tsv",
+      "sizeBytes": 197,
+      "sha256": "6c79abd7f7b48a4d51973dd38f648a86309cb1da0768748ffb8ee57526323920"
+    },
+    {
+      "path": "README.md",
+      "sizeBytes": 4573,
+      "sha256": "7923e862cd67a3410105b460f63e1af08a28164013c0d55db368ffc28a133a23"
+    },
+    {
+      "path": "RELEASE_MANIFEST.json",
+      "sizeBytes": 2338,
+      "sha256": "593b2592cb85a146ade8341d260a8748135b86f00f5a904682b8cf3a510c675d"
+    },
+    {
+      "path": "REMOVE_SERVICE_3ALORA_WINDOWS.bat",
+      "sizeBytes": 213,
+      "sha256": "1403c00a95f728b25f712c94dfd5dcda1b9d70852fd2e705f7744edf0f0d3c7a"
+    },
+    {
+      "path": "RESET_ADMIN_PASSWORD.bat",
+      "sizeBytes": 642,
+      "sha256": "c99b257f2beeb42b7a64c247b19dc37ed77523e873b844e5a53f2b3d8b494a55"
+    },
+    {
+      "path": "RESET_ADMIN_PASSWORD.ps1",
+      "sizeBytes": 1585,
+      "sha256": "ab5426ce4dbffa4c110ffa836dd60dae39c1e033a10459834c6d57fc9d7894c7"
+    },
+    {
+      "path": "RESTART_3ALORA_WINDOWS.bat",
+      "sizeBytes": 207,
+      "sha256": "6b9705dabda2bdd53c2fd753585ee4369dcf3be76afae0554407031d9a4ab717"
+    },
+    {
+      "path": "RESTORE_3ALORA_WINDOWS.bat",
+      "sizeBytes": 197,
+      "sha256": "77cad9c04ee7cf0ec45412c2340d10a518a0547cd700e9a26d940657dc91a442"
+    },
+    {
+      "path": "SAMPLE_FABRIC_SHEETS_IMPORT.tsv",
+      "sizeBytes": 261,
+      "sha256": "53e911f9e20b562c6019f9c1dfff451030ff67ba086d348945ca72c1c5d4f54e"
+    },
+    {
+      "path": "SAMPLE_GOOGLE_SHEETS_IMPORT.tsv",
+      "sizeBytes": 444,
+      "sha256": "ace9f81794efc1811ae185aa936ce3d4564a393e8ccf6b27fc6b807357664e69"
+    },
+    {
+      "path": "START_3ALORA_WINDOWS.bat",
+      "sizeBytes": 205,
+      "sha256": "533b03c2ef30b91d2c9a67633ff188927dec58ca9fadcf65aa66389ce303ae81"
+    },
+    {
+      "path": "START_V22_LUXURY_STAGING.bat",
+      "sizeBytes": 263,
+      "sha256": "d74c7c006bcb8b952788a2ff68f6551eae6dbb212f60bf153e380ac760cf6c20"
+    },
+    {
+      "path": "START_V25_RC2_STAGING.bat",
+      "sizeBytes": 260,
+      "sha256": "1f5f5ab683d129275ba89a39d277b00cb460fb2755c1695b318853ef229e5ee1"
+    },
+    {
+      "path": "STOP_3ALORA_WINDOWS.bat",
+      "sizeBytes": 204,
+      "sha256": "f60935b59c5d95fbcd1784e346537360523e168267d94284b162a0912f69e940"
+    },
+    {
+      "path": "V22_EXECUTIVE_DARK_README.md",
+      "sizeBytes": 3321,
+      "sha256": "71356396a50e4ae362827e58bb473da9d3ad182d06bafcfdcc366f46ee8eb287"
+    },
+    {
+      "path": "V25_BAT_DAU_TAI_DAY.txt",
+      "sizeBytes": 942,
+      "sha256": "5a4e63e07a0ec1a0ebe446c457906202b6b85d04bba7e3b6a1103c0f799a119f"
+    },
+    {
+      "path": "V25_HUONG_DAN_BAT_DAU.txt",
+      "sizeBytes": 942,
+      "sha256": "5a4e63e07a0ec1a0ebe446c457906202b6b85d04bba7e3b6a1103c0f799a119f"
+    },
+    {
+      "path": "XEM_TRUOC_GIAO_DIEN_LOGIN_3ALORA.html",
+      "sizeBytes": 28264,
+      "sha256": "6f253c229ec109d2e5aa84b85855f56150493b9f0a5393af78d40f156b82c95d"
+    },
+    {
+      "path": "adapters/CHAY_DONG_BO_FILE_WINDOWS.bat",
+      "sizeBytes": 606,
+      "sha256": "99498aefd9b6b2b3e77fa50bc5c157aaa4390c04a8eca0c41246cf2c0ab37039"
+    },
+    {
+      "path": "adapters/file-sync-config.example.json",
+      "sizeBytes": 227,
+      "sha256": "324644a26cfa6d511f17df18fc65521f769844013d11fff4a3924137f94cb9ad"
+    },
+    {
+      "path": "adapters/order-file-adapter.py",
+      "sizeBytes": 16716,
+      "sha256": "5627ea0594d0f2eac3a6424e9f8695f04a90253612ff2829ef13d3a6a95baca8"
+    },
+    {
+      "path": "apps-script/3ALORA_ENTERPRISE_CONNECTOR.gs",
+      "sizeBytes": 15147,
+      "sha256": "7ee2e4f7d9956643e94d91de192466db63ab438ec274df5c0b9cb896ce636789"
+    },
+    {
+      "path": "apps-script/ALORA_PRICE_DRAFTS.gs",
+      "sizeBytes": 5615,
+      "sha256": "21c1c3174209c955f743ac120a3f52751a34af098b6b1b090604cfe54dafb5b7"
+    },
+    {
+      "path": "apps-script/ALORA_SYNC_QUEUE.gs",
+      "sizeBytes": 10376,
+      "sha256": "f5f6eb37683c0fc2dca2c440c39f4391276c0cb179bd108fb0125f92770e3b26"
+    },
+    {
+      "path": "apps-script/ETSY_TOOLS_V20_1_INTEGRATED.gs",
+      "sizeBytes": 151755,
+      "sha256": "a353fd94ed619fad3a5a9dc52c8ec9f0f7b51eab6b44f491c241d61f542c3fe9"
+    },
+    {
+      "path": "artifacts/gallery/android-360-lightbox.png",
+      "sizeBytes": 31889,
+      "sha256": "49090269352679f29bb002a6dd7b024a96cddcbd5706d6722e928294c6682f11"
+    },
+    {
+      "path": "artifacts/gallery/android-360.png",
+      "sizeBytes": 46185,
+      "sha256": "6bc05599e346c9c599ae8cc4a23c02608f3085e68fb5eef2edc0da8e35280a61"
+    },
+    {
+      "path": "artifacts/gallery/android-touch.png",
+      "sizeBytes": 187042,
+      "sha256": "12cb3edc92da533be46697071bbcd9add3741c8c270a7fdcdf6009a4665e26ac"
+    },
+    {
+      "path": "artifacts/gallery/desktop-1440-lightbox.png",
+      "sizeBytes": 182401,
+      "sha256": "d91eb70d717a93695cd9241ab22ecc2d186f1cbc5dec1d0759b732111667c029"
+    },
+    {
+      "path": "artifacts/gallery/desktop-1440.png",
+      "sizeBytes": 145170,
+      "sha256": "aac18ff44df6aef6548800b2576d316df787d76065fde6361d101b08b02c99ba"
+    },
+    {
+      "path": "artifacts/gallery/geometry.json",
+      "sizeBytes": 2956,
+      "sha256": "6afed2b92a601c6695958855c6dc776228ce1d8c5fdfad21c707c11a91afe535"
+    },
+    {
+      "path": "artifacts/gallery/iphone-390-lightbox.png",
+      "sizeBytes": 32722,
+      "sha256": "991230e7513ea47cf8173aba449f31e6bf51e356ce94c7aeed15d448b6556914"
+    },
+    {
+      "path": "artifacts/gallery/iphone-390.png",
+      "sizeBytes": 48949,
+      "sha256": "c189c8542fd4ab0e03cc50e5049bdc6875e9af11584200e80315ec6b608856e2"
+    },
+    {
+      "path": "artifacts/gallery/iphone-touch.png",
+      "sizeBytes": 221681,
+      "sha256": "0d8d80c93a2eb5a744ff2fed4d4ff2307a034d91ba09d798a3d4d4cedcd7cf7b"
+    },
+    {
+      "path": "artifacts/gallery/tablet-768-lightbox.png",
+      "sizeBytes": 72294,
+      "sha256": "48100fbb58d143decb8c718523e07828aba4f57bf26b96a9a12e0dc1f8211988"
+    },
+    {
+      "path": "artifacts/gallery/tablet-768.png",
+      "sizeBytes": 65683,
+      "sha256": "1c8379c563159091e50b4aa61c32908f4fea85a3b98e01ca51d8250f5438161c"
+    },
+    {
+      "path": "artifacts/v22-luxury/01-login-desktop-1440.jpg",
+      "sizeBytes": 61074,
+      "sha256": "e2e9f710c14d8352600abe96e3f541ff8e948e277396710c908afb90869a4ed4"
+    },
+    {
+      "path": "artifacts/v22-luxury/02-login-mobile-390.jpg",
+      "sizeBytes": 37855,
+      "sha256": "7263e45b483b72bd414c58bdea08eb9bcdc2275f23be9b62f420f8b083f31652"
+    },
+    {
+      "path": "artifacts/v22-luxury/03-dashboard-1440.jpg",
+      "sizeBytes": 89999,
+      "sha256": "7a0a3743ee3ddfcbcaec5dffec939ba4e9fc1d8f8123587d5011b728a23da24c"
+    },
+    {
+      "path": "artifacts/v22-luxury/04-orders-1440.jpg",
+      "sizeBytes": 99014,
+      "sha256": "27a0f30f9d7b8b2fd2f5d0ffa0d888fe549361254cfdc49695a1824579c6553b"
+    },
+    {
+      "path": "artifacts/v22-luxury/05-chat-1440.jpg",
+      "sizeBytes": 82002,
+      "sha256": "4f87c0dc111c0f81238266678f5a8de12eb029c1b5f6cdb544649a5e3b903baa"
+    },
+    {
+      "path": "artifacts/v22-luxury/06-production-1440.jpg",
+      "sizeBytes": 99154,
+      "sha256": "032103f4b4e152b4a32fd6426085c9c98b038032544c61ce52e27ffba7729088"
+    },
+    {
+      "path": "artifacts/v22-luxury/08-order-design-drawer-1440.jpg",
+      "sizeBytes": 59285,
+      "sha256": "921ed987acb0ac488e78c222ed9c322cdab5893efbf4185937cfd6dc7813cef2"
+    },
+    {
+      "path": "artifacts/v22-luxury/index.html",
+      "sizeBytes": 5255,
+      "sha256": "4001442a254d63d388999bf3199f1df3901d30ab23c3820d87773ed7abda7dce"
+    },
+    {
+      "path": "artifacts/v22-preview/01-login-desktop.png",
+      "sizeBytes": 644614,
+      "sha256": "8f8dedbbea1e8cfce54a31c27da9e4b292d040abf194c1b6a8f09e75da413891"
+    },
+    {
+      "path": "artifacts/v22-preview/02-login-mobile.png",
+      "sizeBytes": 90568,
+      "sha256": "bf51a71f60648df5f7666b42a8ae4fd4cbf04a673b2bb528ea43cd1e590fc098"
+    },
+    {
+      "path": "artifacts/v22-preview/03-dashboard-mock.png",
+      "sizeBytes": 222794,
+      "sha256": "b00d5837e3e98a4acae283e5cf23ecab1355725924c73b7fff6287d3441de372"
+    },
+    {
+      "path": "artifacts/v22-preview/04-legacy-dashboard-mock.png",
+      "sizeBytes": 234722,
+      "sha256": "bf27f67530e268708f3450b124f784f0ef78247f7c74d1b8ca4b5d49dee3253b"
+    },
+    {
+      "path": "artifacts/v25-rc2/CLEAN_INSTALL_LOG.txt",
+      "sizeBytes": 124,
+      "sha256": "362d06c1fa407d320a316b21bb3276e783705351e9517d71e9b5adf90e717ddb"
+    },
+    {
+      "path": "artifacts/v25-rc2/QA_FULL_LOG.txt",
+      "sizeBytes": 2407,
+      "sha256": "1d17d95986c133d4a9c551a2ffb5687135fe2a1a2adc0f3f4f63b7d1d5c51ca7"
+    },
+    {
+      "path": "artifacts/v25-rc2/QA_PYTHON_LOG.txt",
+      "sizeBytes": 103,
+      "sha256": "464e0ee629edf74de09ef21e4232fbcedc26588ff7cc23c470f47fe2da88c255"
+    },
+    {
+      "path": "artifacts/v25-rc2/QA_RESULTS.json",
+      "sizeBytes": 23379,
+      "sha256": "a4940d1467f30e94041c77e15a22bc67401e8948f585b7db139643e947162540"
+    },
+    {
+      "path": "artifacts/v25-rc2/previews/01-sku-desktop.jpg",
+      "sizeBytes": 85840,
+      "sha256": "a616362989cf0488fed160f0f64aae2a4d762f8534f8d75691863c2a54156759"
+    },
+    {
+      "path": "artifacts/v25-rc2/previews/02-sku-mobile-360.jpg",
+      "sizeBytes": 42374,
+      "sha256": "0fe27e6a4dfb1c76c6a875ca8dbdc66f78d67b4b39c0858f91a39220d10a096b"
+    },
+    {
+      "path": "artifacts/v25-rc2/previews/03-login-desktop.jpg",
+      "sizeBytes": 56043,
+      "sha256": "91db3ae83236571c306c08221a1c90f158d8176c01144fd87a7747ea2d48068e"
+    },
+    {
+      "path": "artifacts/v25-rc2/previews/04-login-mobile.jpg",
+      "sizeBytes": 36773,
+      "sha256": "4177ee26aab7872e4d04c94ab30c5303a7039723bd654def08ecdf7e44f4d14b"
+    },
+    {
+      "path": "artifacts/v25-rc2/previews/05-dashboard.jpg",
+      "sizeBytes": 84284,
+      "sha256": "87434916f9e8e25fd6da1f16a6ded98b28bf862318d75ba7e186aac97c25f9f1"
+    },
+    {
+      "path": "artifacts/v25-rc2/previews/06-chat.jpg",
+      "sizeBytes": 83536,
+      "sha256": "ab692432632804291c10a69ddf72130a0d8bcab10fb05454f2d398f0234acb69"
+    },
+    {
+      "path": "artifacts/v25-rc2/previews/07-barcode.jpg",
+      "sizeBytes": 69511,
+      "sha256": "90c69f1b9ed192ed1099877294eb8877ec7a384c756ad130d6e9720184d90e65"
+    },
+    {
+      "path": "artifacts/v25-rc2/previews/08-production.jpg",
+      "sizeBytes": 99870,
+      "sha256": "148503f3acc11d579d23721a672edd832b024dbcd4ef525fa7249c7273676345"
+    },
+    {
+      "path": "artifacts/v25-rc2/previews/09-order-design.jpg",
+      "sizeBytes": 59733,
+      "sha256": "5bd71a33802fbf1cd70e9f4720b63f4fcc2b51ee18b0844844a3fe2ce928c212"
+    },
+    {
+      "path": "artifacts/v25-rc2/previews/10-orders.jpg",
+      "sizeBytes": 97982,
+      "sha256": "21823d78099a15d1156cde5bdb51ce8f3f98b4e3a4b423e13e235257e0c74fa2"
+    },
+    {
+      "path": "artifacts/v25-rc2/previews/README.md",
+      "sizeBytes": 926,
+      "sha256": "7c52c660a6d21f1011d4def29b73850a73769d792bd5bb6a6bbbfaf8ee9cb270"
+    },
+    {
+      "path": "artifacts/v25-rc2/previews/layout-checks.json",
+      "sizeBytes": 853,
+      "sha256": "a9d3a0fe711363608e14fa54dcb7ed08f982fe0d8541cc74ab880a4143a6f0ae"
+    },
+    {
+      "path": "cloudflared.pc-server.example.yml",
+      "sizeBytes": 297,
+      "sha256": "d860cc72ef629856d01d110338cb3557decd66f2cd542fb3da9d7b9245a85c77"
+    },
+    {
+      "path": "config/legacy-linux.env.example",
+      "sizeBytes": 2259,
+      "sha256": "c744b4b14aae1fde2e7ea813f3a426879a96da8240a0d2179f2faebd4d903b48"
+    },
+    {
+      "path": "config/windows.env.example",
+      "sizeBytes": 1141,
+      "sha256": "d225b730af13b37b0816e12fdc0b85f25b883393c98d49173ceb46be2c2d95bf"
+    },
+    {
+      "path": "config.pc-server.env.example",
+      "sizeBytes": 1633,
+      "sha256": "d09b297eee12f179362b994c5ec8df7f73c059ffa7f8ec363e3180b5a951701f"
+    },
+    {
+      "path": "data/.gitkeep",
+      "sizeBytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/backups/.gitkeep",
+      "sizeBytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/evidence/.gitkeep",
+      "sizeBytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/logs/.gitkeep",
+      "sizeBytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "database/postgres_schema.sql",
+      "sizeBytes": 3557,
+      "sha256": "31dbaf72f102d116b97c1c0329df2c70129c2a7c7930ff6786f5ab1c2345efea"
+    },
+    {
+      "path": "database/schema/sqlite-schema-v31.sql",
+      "sizeBytes": 37424,
+      "sha256": "374aa7e2de8b87ee85f284e5fe874221129975ab3715ab737049c0b1b60c8ef0"
+    },
+    {
+      "path": "database/seeds/README.md",
+      "sizeBytes": 413,
+      "sha256": "3d2dc61c8e222e6d40acfd5f636f6a9508439d0d17c937f563ddba65abefacef"
+    },
+    {
+      "path": "docker-compose.yml",
+      "sizeBytes": 1845,
+      "sha256": "72b6d9408ace609ec817c76809458f022fe526304b30c2dc0b10287b66cc1045"
+    },
+    {
+      "path": "docs/ADMIN_GUIDE.md",
+      "sizeBytes": 3901,
+      "sha256": "aaffcf7aab1c051e66258c6375fe4922dc0d6c387c5ad840aa7b5dfa958b6b2b"
+    },
+    {
+      "path": "docs/API_DOCUMENTATION.md",
+      "sizeBytes": 6860,
+      "sha256": "10fd1d331d19026e99d2f1e14d0d15d337fa39807ad8a9e850d871318c83a850"
+    },
+    {
+      "path": "docs/ARCHITECTURE_ENTERPRISE.md",
+      "sizeBytes": 3600,
+      "sha256": "ba86b5dd798d1aa7969666f06f40747e30b9cef9e89ea812153324500ec1e4cd"
+    },
+    {
+      "path": "docs/ARCHITECTURE_V15.md",
+      "sizeBytes": 1357,
+      "sha256": "8e585996cbc3c88ef81f1c3ec5c9e160a24b55cf056f05f07bcb2d5fd649f989"
+    },
+    {
+      "path": "docs/BARCODE_FIX.md",
+      "sizeBytes": 3638,
+      "sha256": "c97f1c62724cf080095d2d1bd40ee018f3b86100fc678613da2031cca5d25030"
+    },
+    {
+      "path": "docs/CHANGED_FILES_RC2.md",
+      "sizeBytes": 2340,
+      "sha256": "9e1cb0dd490b9f8b54860d34f31ec5c60683719b3ead49bd75aeea82c8699505"
+    },
+    {
+      "path": "docs/DATA_CONTRACTS_V15.md",
+      "sizeBytes": 1217,
+      "sha256": "0e10b81c9367656f946fec9db6c41a5bf3b62ac1db86a9ed41147b1f1bb549e1"
+    },
+    {
+      "path": "docs/DELIVERY_SCOPE.md",
+      "sizeBytes": 7394,
+      "sha256": "ff092e7d9df47326620e458e1a6aa447cd425a63a5070c59e3770d50c38175a6"
+    },
+    {
+      "path": "docs/FINANCE_GUIDE.md",
+      "sizeBytes": 7272,
+      "sha256": "cd50a5680f7de99de100aa9ed7a07baae61b27b2d5f44b0037427c7775b6f035"
+    },
+    {
+      "path": "docs/GOOGLE_SYNC_GUIDE.md",
+      "sizeBytes": 7111,
+      "sha256": "1b7528080b2ad62d11204308360c5e49b8fbebe66f25762cbcfcec09bdb19239"
+    },
+    {
+      "path": "docs/INSTALL_WINDOWS.md",
+      "sizeBytes": 9375,
+      "sha256": "09060c481bcfd9d1bac0f7d0b6fb7a28d0cd217b7f9ae15377ed6ab207336796"
+    },
+    {
+      "path": "docs/NGINX_V18.conf.example",
+      "sizeBytes": 655,
+      "sha256": "40afe2c3a84215cc6979c671cd43f0823707f36b18b0d0a00941ab8f5841948e"
+    },
+    {
+      "path": "docs/ORDER_DESIGN_IMAGES.md",
+      "sizeBytes": 1576,
+      "sha256": "8804266013e264a9bdbe2e242de48d79a15a590fb5c7a53c67cc02ee2a9d339e"
+    },
+    {
+      "path": "docs/PUSH_ACCEPTANCE.md",
+      "sizeBytes": 3557,
+      "sha256": "d85fb9eb89af862eb0e50a098cb0875eb6a9a5ac97e013205d1ba624f8465fef"
+    },
+    {
+      "path": "docs/QA_ORDER_DESIGN.md",
+      "sizeBytes": 2443,
+      "sha256": "1715a971adcd144b89dc2da3400ae6442762da3337f801e4e0ad5b834e964c30"
+    },
+    {
+      "path": "docs/QA_REPORT.md",
+      "sizeBytes": 5224,
+      "sha256": "0e407834336653d73ec95c23f2b1bf2a023be80f1843c12b1ea952b466792f3b"
+    },
+    {
+      "path": "docs/UPDATE_GUIDE.md",
+      "sizeBytes": 3540,
+      "sha256": "6e402d928a071441207cd023c34110e1b770a236defd4a51c74bd840a1ef2351"
+    },
+    {
+      "path": "docs/UPDATE_ROLLBACK_V15.md",
+      "sizeBytes": 889,
+      "sha256": "ab67519a6f8e3e7cc22de345f7bba945b3ddb3124335606ddf9eb110db0d3a6c"
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "sizeBytes": 8575,
+      "sha256": "4636492b239a370a211b77018a0c9eac4f12225dcec699032dfdf52f74ab2340"
+    },
+    {
+      "path": "docs/V22_EXECUTIVE_DARK.md",
+      "sizeBytes": 8415,
+      "sha256": "cddedbca1e2de9d2a682ce645754b95efe3f53b576dfa35c6df852285de0276e"
+    },
+    {
+      "path": "docs/V22_LUXURY_ACCEPTANCE.md",
+      "sizeBytes": 4937,
+      "sha256": "501d0fba09d9d17141d32246493520de8c2c03672e5d826906bdb256a3dc9618"
+    },
+    {
+      "path": "docs/V22_LUXURY_CHANGED_FILES.md",
+      "sizeBytes": 6584,
+      "sha256": "853288b1eec16b4aa863c80fe1fabfa41fc70c89a09045ffa0845a8f55c78dcd"
+    },
+    {
+      "path": "docs/V22_LUXURY_DESIGN_SYSTEM.md",
+      "sizeBytes": 2423,
+      "sha256": "9cd7be5236b982e6fdf9206d7c11fa1abe76273bf48a48cb93c09e02c9d869c6"
+    },
+    {
+      "path": "docs/V22_LUXURY_QA.md",
+      "sizeBytes": 5398,
+      "sha256": "d550ba4e89cb9aa1c740d0c8d706fdea638a7e0c9d60976bc1c73a8c69199758"
+    },
+    {
+      "path": "docs/V22_LUXURY_SOURCE_AUDIT.md",
+      "sizeBytes": 3872,
+      "sha256": "eee81050dc1fb8014d13be2f117425b24399ae58e869d7a2936045845079636d"
+    },
+    {
+      "path": "docs/V22_LUXURY_UPGRADE_ROLLBACK.md",
+      "sizeBytes": 4440,
+      "sha256": "739ba84e0ecc73f07388e5ed9bd5703c50465458136c103243244c834b54303a"
+    },
+    {
+      "path": "docs/V22_LUXURY_WINDOWS.md",
+      "sizeBytes": 3387,
+      "sha256": "ffea53d9aae2aefc90ab15efce600076c97e3dc872346ab31a4a1e28783025b2"
+    },
+    {
+      "path": "docs/V25_IMPLEMENTATION.md",
+      "sizeBytes": 9685,
+      "sha256": "7483ea503228f3af9138b421a8bb57768e4c510cdd7423675e6086272ada0fa4"
+    },
+    {
+      "path": "docs/V25_QA_REPORT.md",
+      "sizeBytes": 8326,
+      "sha256": "40f2797bbd249f9fcf21c189492fbb2109c4cda4fe67df791a1c957eeb2fd34c"
+    },
+    {
+      "path": "docs/V25_RC1_HUONG_DAN_CHUYEN_DOMAIN.md",
+      "sizeBytes": 7911,
+      "sha256": "3d16e1805898a1cb36313c77f2ed64def9ac44efafe5e300b486a633437be85a"
+    },
+    {
+      "path": "docs/V25_RC1_QA_REPORT.md",
+      "sizeBytes": 6362,
+      "sha256": "720655500a4ef2e917706c5acf1956fcc318c139e415df97e3d0c4916c872ba1"
+    },
+    {
+      "path": "docs/V25_RC2_HUONG_DAN_CHAY_THU.md",
+      "sizeBytes": 5947,
+      "sha256": "cd50c783badf53dc4290adc58ce3be5e27d59e0c4fe253713e93a3fe5c1f3411"
+    },
+    {
+      "path": "docs/V25_RC2_NANG_CAP_ROLLBACK.md",
+      "sizeBytes": 4655,
+      "sha256": "792d59d5e3e1375dfa7e0e034fb346debf9baab9eb8c5038a9ab5d6dd0fc8979"
+    },
+    {
+      "path": "docs/V25_RC2_PHAN_QUYEN.md",
+      "sizeBytes": 2965,
+      "sha256": "648ba87a0eecd0e99c5dc2b35193b1aa1c64b833edd6942138bbd0abb001da81"
+    },
+    {
+      "path": "docs/V25_RC2_QA_REPORT.md",
+      "sizeBytes": 9246,
+      "sha256": "fbf85b407643f56a15fb0ba9eb910aad784f6e272a53f908e838f546fe82efaa"
+    },
+    {
+      "path": "docs/V25_WINDOWS_DEPLOY.md",
+      "sizeBytes": 3896,
+      "sha256": "c3168f6841748b90edca8473611233ef2b25608c5c712283cc557dbdd092341e"
+    },
+    {
+      "path": "docs/history/ADMIN_LOGIN_FIX_V13_1.txt",
+      "sizeBytes": 1053,
+      "sha256": "cd21e37862ad7654b55bdc368baaaa252476b85ef8f90f2a93de93dedea1210b"
+    },
+    {
+      "path": "docs/history/BAO_CAO_GIAO_DIEN_V17_8.md",
+      "sizeBytes": 3574,
+      "sha256": "17a5138686edbe4d5861aca21b122fdb578650a63a5dfaf0457984440ed8ce2c"
+    },
+    {
+      "path": "docs/history/BAO_CAO_QA_V15_1_HARDENED.md",
+      "sizeBytes": 6106,
+      "sha256": "1d02462a7300f54b808457a6d944c5cea54bfbfb5e653031fc23aa766891edcb"
+    },
+    {
+      "path": "docs/history/BAO_CAO_QA_V16.md",
+      "sizeBytes": 2538,
+      "sha256": "ec2e14ad531052af975a337dfe20595135de3b67b1a243167c5b3c8e2aa4d933"
+    },
+    {
+      "path": "docs/history/BAO_CAO_QA_V17.md",
+      "sizeBytes": 2353,
+      "sha256": "29104570621b0f9e77f824dae61674bcd6646fae51f04e6206ebf7d3694187a8"
+    },
+    {
+      "path": "docs/history/CHANGELOG_3ALORA_CHAT_V17_1.md",
+      "sizeBytes": 811,
+      "sha256": "43e89064e876a56a2311b712993a63fec036078d52d7d6c5d116e1fb64feef8a"
+    },
+    {
+      "path": "docs/history/CHANGELOG_V13_PROFESSIONAL.txt",
+      "sizeBytes": 1505,
+      "sha256": "f9f43a409780508247166c72ddb4625251ad2e0c791a17aa5f7bbbe25d82ba21"
+    },
+    {
+      "path": "docs/history/CHANGELOG_V14_1_FABRIC_SHEETS_IMPORT.txt",
+      "sizeBytes": 978,
+      "sha256": "77b02200aa13983c5774d096bbc1daf10b9b473e0022e35ca3620fbd65b2215c"
+    },
+    {
+      "path": "docs/history/CHANGELOG_V14_2_1_IMPORT_HOTFIX.txt",
+      "sizeBytes": 535,
+      "sha256": "d98e460f2f5362f41f1b417d6fd2c0eb88c5264c703910902067b4c0ed651d98"
+    },
+    {
+      "path": "docs/history/CHANGELOG_V14_2_COMPACT_WORKFLOW.txt",
+      "sizeBytes": 911,
+      "sha256": "6e8c647a010b4a3971c3fff22aa79fd992fecf20c91952073d1b2bb978dfc617"
+    },
+    {
+      "path": "docs/history/CHANGELOG_V14_3_DATA_SAFE.txt",
+      "sizeBytes": 631,
+      "sha256": "269c353eafb47b076183c5bb1f8ea0d745986fa81642b7e473cfa93f1b06e1e1"
+    },
+    {
+      "path": "docs/history/CHANGELOG_V14_FABRIC_INVENTORY.txt",
+      "sizeBytes": 1169,
+      "sha256": "4ff53a2a7c94ef505a30cc1938a1483cbe0d86a0b92175648f1ee3562c8e3525"
+    },
+    {
+      "path": "docs/history/CHANGELOG_V15_PC_SERVER_DOMAIN.txt",
+      "sizeBytes": 693,
+      "sha256": "13e9be1675cc3de049dd86fd4badcfdd60a307d497d39110e4d75687b4705841"
+    },
+    {
+      "path": "docs/history/CHANGELOG_V15_PROFESSIONAL_CORE.txt",
+      "sizeBytes": 775,
+      "sha256": "88c59a5cbd52c1b1d686a2a8174822bc3a6c2d0c0486101753a99d9ba4167abb"
+    },
+    {
+      "path": "docs/history/CHANGELOG_V17.md",
+      "sizeBytes": 1287,
+      "sha256": "42cc4047b370ef811edc99290861730260cc88ea3cd389c53c39b0350928c41e"
+    },
+    {
+      "path": "docs/history/CHANGELOG_V17_1_1_CHAT_HOTFIX.md",
+      "sizeBytes": 589,
+      "sha256": "415f0ab927039da3fbbadd3dd0537d234e895fdc69660f3d9edf166cb502dea0"
+    },
+    {
+      "path": "docs/history/DOC_TRUOC_KHI_CHAY_V17.md",
+      "sizeBytes": 1734,
+      "sha256": "cda56a6e222f817081be7a9823ded92ddfd00585e4777e31dd580993376be4c2"
+    },
+    {
+      "path": "docs/history/HARDENING_STATUS_V13.txt",
+      "sizeBytes": 3022,
+      "sha256": "b20ccfa1defa1c65951fb12c0a6c3298bd5f90b72e9106edae524540c4e4c399"
+    },
+    {
+      "path": "docs/history/HOTFIX_V17_1_1_CHAT_SCHEMA.md",
+      "sizeBytes": 6310,
+      "sha256": "477a2466fa8f32e28b2bafb81ce2df4b461cf3c7136185c7249a418430532d93"
+    },
+    {
+      "path": "docs/history/HUONG_DAN_3ALORA_CHAT_V17_3_DA_NGUON.md",
+      "sizeBytes": 10660,
+      "sha256": "70cbf6b10cc67acf2401681ef1818fc48c3ffc48589e1b8c00e5ee47e12504c3"
+    },
+    {
+      "path": "docs/history/HUONG_DAN_3ALORA_CHAT_V17_4_GOOGLE_SHEETS_EXCEL_CSV.md",
+      "sizeBytes": 12150,
+      "sha256": "e0639b6d81271c4d28aadf1c6582502687311747b87e2b87a9a9251a575785de"
+    },
+    {
+      "path": "docs/history/HUONG_DAN_3ALORA_CHAT_V17_5_PWA.md",
+      "sizeBytes": 9938,
+      "sha256": "e71cb3164ecd8f594051469550c13936de49318dde56ecf663d2cb32145f8d66"
+    },
+    {
+      "path": "docs/history/HUONG_DAN_NANG_CAP_V17.md",
+      "sizeBytes": 5011,
+      "sha256": "10575322fa51a4eec148a0a6916f8b33d9abf7e9298d2930920353b89b8d3721"
+    },
+    {
+      "path": "docs/history/HUONG_DAN_NANG_CAP_V17_7.md",
+      "sizeBytes": 3579,
+      "sha256": "34f7ab819aa5512e77aae1f157fdbc1c73abfb819c24ce1c46f0902abbe30675"
+    },
+    {
+      "path": "docs/history/HUONG_DAN_NANG_CAP_V17_8.md",
+      "sizeBytes": 3523,
+      "sha256": "26ffac0fe424c7be86dd15c8dacf6e2c8cc8903eeb04c4474a9270c222498ab9"
+    },
+    {
+      "path": "docs/history/HUONG_DAN_V15_1_KHO_SKU_SHEETS.md",
+      "sizeBytes": 7523,
+      "sha256": "edc4c7f479369d76b91b3944a68495f072457b631fa95479bbbc8de02519a4e5"
+    },
+    {
+      "path": "docs/history/HUONG_DAN_V16_DOANH_SO_QUET_TU_DONG.md",
+      "sizeBytes": 12033,
+      "sha256": "8c2e174246d1c8975d3cc3e5a08ae5eedbdd20209b31a4afed23c96d01bd8c2f"
+    },
+    {
+      "path": "docs/history/QA_V18_0.md",
+      "sizeBytes": 6726,
+      "sha256": "8e89160f2e9e9162086a8ce5099ec488fe0f5fdb292da55452d717a9af75d361"
+    },
+    {
+      "path": "docs/history/README_3ALORA_CHAT_V17_1.md",
+      "sizeBytes": 10306,
+      "sha256": "059d1c38cde0b937df581b242c2e2917fd6b9d7fddf353512fad9c0dd678a41a"
+    },
+    {
+      "path": "docs/history/README_DATA_SAFE_UPDATE_V14_3_VI.txt",
+      "sizeBytes": 2452,
+      "sha256": "ea03602d4d2865d841406fd91368a265a2e08c8954eb171d445c67238e087dbc"
+    },
+    {
+      "path": "docs/history/README_PC_SERVER_DOMAIN_V15.md",
+      "sizeBytes": 4962,
+      "sha256": "8f33f5284cd9b28826ca634f2762e3817c07566fe3f6758532702295bb6db24d"
+    },
+    {
+      "path": "docs/history/README_V13_PROFESSIONAL_VI.txt",
+      "sizeBytes": 5087,
+      "sha256": "35e7a6fc9d5a8a9fcd560dbdfd4ec9a396d26d3e98b1d10ed37833f32791214d"
+    },
+    {
+      "path": "docs/history/README_V14_1_FABRIC_SHEETS_IMPORT_VI.txt",
+      "sizeBytes": 965,
+      "sha256": "c73aa83ba4b18015ee2bf0459b645a08bca481166b6e2572328354a9439e2599"
+    },
+    {
+      "path": "docs/history/README_V14_FABRIC_INVENTORY_VI.txt",
+      "sizeBytes": 3397,
+      "sha256": "6d4a5c3433df91112e85b38758323239b323529f3dea31a331ad4e2c65e3a673"
+    },
+    {
+      "path": "docs/history/README_V15_PROFESSIONAL_CORE_VI.md",
+      "sizeBytes": 4600,
+      "sha256": "b19d57c650f26237cb909081ca167a1e11b5b0dcab6b9ca80806fc5419837cb0"
+    },
+    {
+      "path": "docs/history/README_V17_6_NANG_CAP.md",
+      "sizeBytes": 7277,
+      "sha256": "520a90a3a1a2ebaf704f960ca08b9b7bdc7e4b023fee6f30cc95f3b421d5afd8"
+    },
+    {
+      "path": "docs/history/README_V17_7.md",
+      "sizeBytes": 2470,
+      "sha256": "aec4ad435ea06f4587585cc1ea24e8f88fec89e6c995596a30599eacd01f8957"
+    },
+    {
+      "path": "docs/history/README_V17_7_1_UI.md",
+      "sizeBytes": 1578,
+      "sha256": "77f6ce30eca300a0b00ff7df2ea3479b74369db9b1263fcb7885a58a4e079e07"
+    },
+    {
+      "path": "docs/history/README_V17_8_WORKSPACE.md",
+      "sizeBytes": 2304,
+      "sha256": "5be06583dadf64bc12aba7859bb2ac42de537a3bb7f4e7257cb1a8d3bf5b957f"
+    },
+    {
+      "path": "docs/history/README_VI.txt",
+      "sizeBytes": 7174,
+      "sha256": "562eaef45e0ac79e773974b3339e182db50efa899af50f78c61538b10d8bec02"
+    },
+    {
+      "path": "docs/history/RELEASE_MANIFEST_V17_ORIGINAL.json",
+      "sizeBytes": 19833,
+      "sha256": "b8870dae1a5a330db1cb8a1502af67f8ac07b8219227419f4d5839b530f1fa65"
+    },
+    {
+      "path": "docs/history/RELEASE_MANIFEST_V18_0.json",
+      "sizeBytes": 34964,
+      "sha256": "3324ee22301795183312faf6c6860840d541971a548f29fa1703bb2e1133ee93"
+    },
+    {
+      "path": "docs/history/RELEASE_NOTES_V18_0.md",
+      "sizeBytes": 12793,
+      "sha256": "c8f4f951b447f27b83d9d56191d56bea7848e9bb38fb9b917775bb635e66198c"
+    },
+    {
+      "path": "docs/history/SECURITY_V13_CHECKLIST.txt",
+      "sizeBytes": 968,
+      "sha256": "802cb89f4e61d56c85f8b7ea138aeb4e75e4bd4c4131b70f9b1d73df098c2508"
+    },
+    {
+      "path": "docs/history/START_HERE_V18_0.md",
+      "sizeBytes": 8872,
+      "sha256": "af527a18737d8114115511162bc32a97db758d14488910909088a1f51ff2852c"
+    },
+    {
+      "path": "docs/history/TEST_REPORT_V13.txt",
+      "sizeBytes": 1706,
+      "sha256": "6418152d41f3aefdf1eb528c1596e3146adeb000412a1a23adfd9b8ffc85348e"
+    },
+    {
+      "path": "docs/history/TEST_REPORT_V14.txt",
+      "sizeBytes": 695,
+      "sha256": "503bb0921146fd02556366925dd4f50dd4d373367d88f1d6bdd44ce656e33918"
+    },
+    {
+      "path": "docs/history/TEST_REPORT_V14_2.txt",
+      "sizeBytes": 1230,
+      "sha256": "a07e6115c33022639bd8f6af1520801ce2b89045de53c97b726cf24c8ec49532"
+    },
+    {
+      "path": "docs/history/TEST_REPORT_V14_3.txt",
+      "sizeBytes": 893,
+      "sha256": "5cee3eb080e2d4c97639830eb0176739b083cb71137300d0a6749ff75b10cd4b"
+    },
+    {
+      "path": "docs/history/TEST_REPORT_V15.txt",
+      "sizeBytes": 1741,
+      "sha256": "80f6683fd1fea01e9cd0f01fb4d2d09554ccaa891f7e16d754cc66cdcd87f81b"
+    },
+    {
+      "path": "docs/history/TEST_REPORT_V15_PC_SERVER_DOMAIN.txt",
+      "sizeBytes": 1153,
+      "sha256": "4b31dc6e12a59fcba45949380553328cc409bdb7b27ec45b98ff3b3000eddb0c"
+    },
+    {
+      "path": "docs/history/UPGRADE_FROM_V14_3_TO_V15_WINDOWS.txt",
+      "sizeBytes": 1740,
+      "sha256": "2b59701da0f45c9836e7785c58754cb349e33dcc57f900a68cd28d0114f9f16e"
+    },
+    {
+      "path": "docs/history/alora-design-system.css",
+      "sizeBytes": 16855,
+      "sha256": "a16b481ec1bf0ab2a7c2e8a695581ebc9acd0cf28ef8843fb4cad05680cb249c"
+    },
+    {
+      "path": "docs/history/alora-v18.css",
+      "sizeBytes": 2083,
+      "sha256": "1d7b559b8155e76d21b492d3c77f234e29ced48f8eb3efb2981349d440a0077e"
+    },
+    {
+      "path": "docs/history/alora-workspace-v178.css",
+      "sizeBytes": 16902,
+      "sha256": "9b5cd1efd2d7afac1d845ebe20b174ef9598290ff8322b2529281993759d6825"
+    },
+    {
+      "path": "docs/history/styles-pre-v18.1.css",
+      "sizeBytes": 92915,
+      "sha256": "73f7f6770f96d40aa1485b8dc3e1ff4cd5d96a885d21d7644e137763fa4f4f71"
+    },
+    {
+      "path": "docs/qa/BAO_CAO_GOC_V17_8.md",
+      "sizeBytes": 63320,
+      "sha256": "a80434e41b47e089303c9356d1cd521969fbe4a6f83ba238d66b96a44872c138"
+    },
+    {
+      "path": "docs/qa/audit-findings-original.json",
+      "sizeBytes": 61863,
+      "sha256": "2623c4afa3156ca96903df01ad830f25c7cd49ef7148b2a1bc6ba251fd78a59c"
+    },
+    {
+      "path": "docs/qa/automated-results.json",
+      "sizeBytes": 6822,
+      "sha256": "f20567572fe17c7c3a5e236aec1a4b159e4edfa8c4c13d5cde4ca278cdf8f416"
+    },
+    {
+      "path": "docs/qa/benchmark-v18_0-results.json",
+      "sizeBytes": 305,
+      "sha256": "2902d47e37ff9c97d7a81be6ff1a582314da3314d3238a9fd293ea1f55d4fe7f"
+    },
+    {
+      "path": "docs/qa/dependency-audit-v18_0.json",
+      "sizeBytes": 382,
+      "sha256": "a8e73815c84b81d27e3f7bf6a65f7345903bdd6b8e5ac052bc1f17a6315eb375"
+    },
+    {
+      "path": "docs/qa/enterprise-results.json",
+      "sizeBytes": 10101,
+      "sha256": "a5aab1ccb72d92ee81f50e38605796630428299eecac43c9fcf25ef126cdcb35"
+    },
+    {
+      "path": "docs/qa/original-v20-upgrade-results.json",
+      "sizeBytes": 634,
+      "sha256": "99480eab12be0cb830a7f2879054ce7ce26c92874a23362a5b2c706508dd0013"
+    },
+    {
+      "path": "docs/qa/v22-design-results.json",
+      "sizeBytes": 7217,
+      "sha256": "e15d3f79053a584fdc72972eacc65cf71d5e3d55c46c015bfef93f8a56b3eff3"
+    },
+    {
+      "path": "docs/qa/v22-luxury-browser.json",
+      "sizeBytes": 12523,
+      "sha256": "044eeb5296af7c2b02e9d31bda0e2a4b5a44955039bfee0c2f109817d7646a3b"
+    },
+    {
+      "path": "docs/qa/v22-luxury-enterprise.json",
+      "sizeBytes": 3592,
+      "sha256": "e348cad872830c62d7050c96b381e8dbd02c2f9d90462dbb9aa6733352b49cb4"
+    },
+    {
+      "path": "docs/qa/v22-luxury-tests.json",
+      "sizeBytes": 7862,
+      "sha256": "0ddee3f31525255cd269ea9494cc347718c3d758f94d74c5d93fe337fcf1fc0f"
+    },
+    {
+      "path": "examples/MAU_DON_HANG_3ALORA_V17_4.csv",
+      "sizeBytes": 293,
+      "sha256": "4afd95c8fbfb1e9b2efb5e04943bc917fceecb91b2260ec5136e1255c31d28eb"
+    },
+    {
+      "path": "examples/MAU_DON_HANG_3ALORA_V17_4.xlsx",
+      "sizeBytes": 4505,
+      "sha256": "d351f44e72526bf63987cf0e4a7e448238ab1a12c87fbe024117198fece8f68f"
+    },
+    {
+      "path": "examples/google-sheets-trigger.gs",
+      "sizeBytes": 7063,
+      "sha256": "e9e9049d535d98c017e0d479cab2033e3d346f079d1962d7fc85e53fd8496d31"
+    },
+    {
+      "path": "examples/send-order.cjs",
+      "sizeBytes": 921,
+      "sha256": "dc80be67a5dd9e2d4e0118425c56eac57bbba659abc32d3520d286cf9b1d7855"
+    },
+    {
+      "path": "legacy/README.md",
+      "sizeBytes": 519,
+      "sha256": "60dc6b96916493690fb96c5dd1deb1e0a5ffd7ed50b1844b37e0a625d7bed709"
+    },
+    {
+      "path": "legacy/docs/ALORA_SYNC_STAGING_README.md",
+      "sizeBytes": 15646,
+      "sha256": "da97d0cf684165fc5642466085ef862c0596014ac79100f63aea44d27bb5685d"
+    },
+    {
+      "path": "legacy/docs/ALORA_V18_2_STAGING_HANDOVER.md",
+      "sizeBytes": 15398,
+      "sha256": "c52606730457f8cfa866c01067559a5de3cbafecc727a43712cb63f17e5a157b"
+    },
+    {
+      "path": "legacy/docs/BAN_GIAO_PRODUCT_GALLERY.md",
+      "sizeBytes": 14440,
+      "sha256": "1a09680a436ed75f0af1fac85948218891bde09c0c8f24a4df184f4e03c5db88"
+    },
+    {
+      "path": "legacy/docs/QA_V18_1.md",
+      "sizeBytes": 3362,
+      "sha256": "e3bc90c8e367b1de9124c2062a1a56daa99912609e57799e05496fe876c488cd"
+    },
+    {
+      "path": "legacy/docs/QA_V18_3_SAFE_UPGRADE.md",
+      "sizeBytes": 1965,
+      "sha256": "46af8964cfd60a35d5decb54b6cb728120c72c0f352c26c0cc1085f3e31673d6"
+    },
+    {
+      "path": "legacy/docs/README_V18_3_CAI_DAT_WINDOWS.md",
+      "sizeBytes": 10948,
+      "sha256": "904ffbb86b39d256b317f8a548b6d5827eb19fdb5fc2e5c8fdd8f0dc90e9a563"
+    },
+    {
+      "path": "legacy/docs/RELEASE_NOTES_V18_1.md",
+      "sizeBytes": 3671,
+      "sha256": "28092e3c418660e8cb655d70cb478af1d4f15a92e5d0d27e7539b215fea0b367"
+    },
+    {
+      "path": "legacy/docs/START_HERE_V18_1.md",
+      "sizeBytes": 7018,
+      "sha256": "fb7e35940a8f52f9d7259a0f00c8dcdee9c4968255674c55aac67fc187f351c2"
+    },
+    {
+      "path": "legacy/docs/V20_1_BAO_CAO_QA.md",
+      "sizeBytes": 2281,
+      "sha256": "1c883b1012c4b17bd5706cffb08ec267e64412dc057370d1a6ff61318804608b"
+    },
+    {
+      "path": "legacy/docs/V20_1_HUONG_DAN_KHOI_DONG_DONG_BO.md",
+      "sizeBytes": 10545,
+      "sha256": "9c68fc40f38f42ebff2699f9547ab9f5fe152422cad24c0e3b68ea50d698f018"
+    },
+    {
+      "path": "legacy/docs/V20_BAO_CAO_QA.md",
+      "sizeBytes": 2705,
+      "sha256": "253a4c8fb1844f60de671901071fb7be11a61b420acd38b1bcb9ec94b51bcd7d"
+    },
+    {
+      "path": "legacy/docs/V20_HUONG_DAN_CAI_WINDOWS.md",
+      "sizeBytes": 5991,
+      "sha256": "d2737cc1e1df56e43a43ebb4571c764fbd685bc0644263a42e7810ed36f16532"
+    },
+    {
+      "path": "legacy/docs/V20_RELEASE_NOTES.md",
+      "sizeBytes": 1001,
+      "sha256": "fd9469d45d0751f643a404417e2bb07237aa59236bbfa0acf285272e4b6358a1"
+    },
+    {
+      "path": "legacy/launchers/00_CAI_DAT_VA_CHAY_WINDOWS.bat",
+      "sizeBytes": 248,
+      "sha256": "6f69692bbf3872032c7aebc0e1c92ddf0e51098b9ad57dce0dd85b5e371884a6"
+    },
+    {
+      "path": "legacy/launchers/01_SAO_LUU_TRUOC_KHI_NANG_CAP.bat",
+      "sizeBytes": 249,
+      "sha256": "816b8aa34689ea77b5f589d32ab56a3c15cee932ea2de844859b8fca4c38864b"
+    },
+    {
+      "path": "legacy/launchers/02_CHAY_SERVER_PORT_3000.bat",
+      "sizeBytes": 250,
+      "sha256": "017b7bb2fce58d5a7c85bb6fe320876f006954ca488d9ad1ade5784e351103d1"
+    },
+    {
+      "path": "legacy/launchers/03_KIEM_TRA_DOMAIN_VA_SERVER.bat",
+      "sizeBytes": 149,
+      "sha256": "1ff27a7656c0c86940e3037a55b55b4a3626b5c16f402db9c6d6f1594145efbe"
+    },
+    {
+      "path": "legacy/launchers/04_XEM_KE_HOACH_TU_KHOI_DONG.bat",
+      "sizeBytes": 214,
+      "sha256": "dfcadb25e25d05f692da3e3b688b91a22205f9f98c8a37202bc6f10c2ed555c0"
+    },
+    {
+      "path": "legacy/launchers/CAI_NODEJS_LTS.bat",
+      "sizeBytes": 534,
+      "sha256": "402a8018cde0828c61357461d51f51b402f88d15e4f3a46d7e092d3f2f4bb0bf"
+    },
+    {
+      "path": "legacy/launchers/DATA_STATUS_WINDOWS.bat",
+      "sizeBytes": 124,
+      "sha256": "6aa66257b005a80b73f30d4d78222846e68cd5f670ec371a9581fe9374fb9c83"
+    },
+    {
+      "path": "legacy/launchers/INSTALL_CLOUDFLARED_SERVICE_WINDOWS.ps1",
+      "sizeBytes": 836,
+      "sha256": "b2280f1150467dd85496fdfbcaa03e6ba3c964015e75733b89b9847fd511ee50"
+    },
+    {
+      "path": "legacy/launchers/INSTALL_V15_AUTOSTART_WINDOWS.ps1",
+      "sizeBytes": 1402,
+      "sha256": "3f5d5c459f237d5104dfe9f57c50b3dbdc07380f0abdb72f342e40e389b3c6a7"
+    },
+    {
+      "path": "legacy/launchers/INSTALL_VPS_UBUNTU.sh",
+      "sizeBytes": 1291,
+      "sha256": "ae9ad714955e9f2c3b7ba1e0b6a70195d50af55b2a1f3acd51c06ef156cd820b"
+    },
+    {
+      "path": "legacy/launchers/KIEM_TRA_LOI_WEB.bat",
+      "sizeBytes": 124,
+      "sha256": "6aa66257b005a80b73f30d4d78222846e68cd5f670ec371a9581fe9374fb9c83"
+    },
+    {
+      "path": "legacy/launchers/KIEM_TRA_V17_WINDOWS.bat",
+      "sizeBytes": 69,
+      "sha256": "15d22f8a947c0335e858e4b522860d6ae9ce14d6927d731844c306f1dd882e7f"
+    },
+    {
+      "path": "legacy/launchers/MIGRATE_DATA_TO_PERSISTENT_WINDOWS.bat",
+      "sizeBytes": 225,
+      "sha256": "e566a8b281723e1547de043d3e57363c13d8e76abeeaadad47a59468585864d6"
+    },
+    {
+      "path": "legacy/launchers/MIGRATE_FROM_V11_OR_V12_WINDOWS.bat",
+      "sizeBytes": 153,
+      "sha256": "d5ae575603e5e3099f8e4c60a38ed21fa47b53e694c7ee3d360952bf88509217"
+    },
+    {
+      "path": "legacy/launchers/MIGRATE_FROM_V12_WINDOWS.bat",
+      "sizeBytes": 471,
+      "sha256": "034aea55bc92cb2a09546f0c0836ab515e2272f558ef734de56314edfa74662b"
+    },
+    {
+      "path": "legacy/launchers/MIGRATE_FROM_V13_WINDOWS.bat",
+      "sizeBytes": 471,
+      "sha256": "034aea55bc92cb2a09546f0c0836ab515e2272f558ef734de56314edfa74662b"
+    },
+    {
+      "path": "legacy/launchers/START_3ALORA_MAC_LINUX.sh",
+      "sizeBytes": 92,
+      "sha256": "ff64bc9e5dc508250bc3d30d6d24433f8f4758c94d1b5752f52c63c5f96c6ff6"
+    },
+    {
+      "path": "legacy/launchers/START_3ALORA_V18_MAC_LINUX.sh",
+      "sizeBytes": 429,
+      "sha256": "ed5e3f42751d5217de1586c37e81848e98a8b49a8da37426b9374e080f2f0c7b"
+    },
+    {
+      "path": "legacy/launchers/START_3ALORA_V18_WINDOWS.bat",
+      "sizeBytes": 1065,
+      "sha256": "0885a709eb434ababbef269060550c2669324042d417e6c4a7f305e09c2e5d48"
+    },
+    {
+      "path": "legacy/launchers/START_CHAT_HOTFIX_WINDOWS.bat",
+      "sizeBytes": 284,
+      "sha256": "43fe38193bcd98033a6bed9a89e69dd195934e7a59199fbcd235d82af14f466b"
+    },
+    {
+      "path": "legacy/launchers/START_GALLERY_TEST_WINDOWS.bat",
+      "sizeBytes": 1126,
+      "sha256": "cecfa6464cfa16e5195801b42f6d2607cb831d1fa19bbce0513368e8796d8c04"
+    },
+    {
+      "path": "legacy/launchers/START_V18_2_STAGING_WINDOWS.bat",
+      "sizeBytes": 633,
+      "sha256": "484ec5952b869a87424e43c85f6689bd4c748b0d554a0967bc08fb42e78e39bc"
+    },
+    {
+      "path": "legacy/launchers/TAO_KHOA_VAPID_WINDOWS.bat",
+      "sizeBytes": 583,
+      "sha256": "36f31fecd63767d6664bca10bc557fd72a489582918440688c1987c718881459"
+    },
+    {
+      "path": "legacy/launchers/V20_01_BACKUP_EXISTING.bat",
+      "sizeBytes": 412,
+      "sha256": "44f121ef1d8cf585a3212570aa9dcad2b65f3339e6f8dc1ef1ef4540afe8fe26"
+    },
+    {
+      "path": "legacy/launchers/V20_02_RUN_STAGING.bat",
+      "sizeBytes": 1457,
+      "sha256": "45115e32f5a4abfb26f1f6f16619c816b33b6518183005b9234ce8bfaa9f8cdf"
+    },
+    {
+      "path": "legacy/launchers/V20_03_VERIFY_SERVER.bat",
+      "sizeBytes": 439,
+      "sha256": "5b40266fc72cdd025d98a3e4e8e571818f29c15a7c8a16337f24603613d19f27"
+    },
+    {
+      "path": "legacy/launchers/V20_START_HERE.bat",
+      "sizeBytes": 833,
+      "sha256": "4122eb3243261c62e8e22c269e9586507aeb8a4d2f03ccd77c05183387142c53"
+    },
+    {
+      "path": "legacy/launchers/VERIFY_PC_SERVER_DOMAIN.ps1",
+      "sizeBytes": 1104,
+      "sha256": "603de21366711438a6a265635857aa05fd10cbf48e425ac3a1cbfb20b9e56009"
+    },
+    {
+      "path": "legacy/launchers/VERIFY_V15_WINDOWS.bat",
+      "sizeBytes": 69,
+      "sha256": "15d22f8a947c0335e858e4b522860d6ae9ce14d6927d731844c306f1dd882e7f"
+    },
+    {
+      "path": "legacy/launchers/VERIFY_V18_WINDOWS.bat",
+      "sizeBytes": 357,
+      "sha256": "af04a8738eeff10ec028b7a3d56ad7869b7a2bb176cfaa17650210074f621631"
+    },
+    {
+      "path": "legacy/manifests/ALORA_STAGING_CHANGES.json",
+      "sizeBytes": 1492,
+      "sha256": "f81f15371ed621b5599b76e8ffd48af95ce8df930bba3e7a8783c27b92d3109d"
+    },
+    {
+      "path": "legacy/manifests/V20_FILE_MANIFEST.json",
+      "sizeBytes": 48911,
+      "sha256": "08286d749a3a5cd59a3f18695b8e8575560bc1355bf4a9c98484dc8f005769bc"
+    },
+    {
+      "path": "legacy/manifests/V22_BASELINE_FILE_MANIFEST.json",
+      "sizeBytes": 74113,
+      "sha256": "1405f5549123ccc8a235ab6eb8beaa2bc3db58b50fd26bae1dc8119d4fa59615"
+    },
+    {
+      "path": "legacy/manifests/V22_BASELINE_RELEASE_MANIFEST.json",
+      "sizeBytes": 6919,
+      "sha256": "2aca564a4661cc5ab6d2db344914a7052176258256e0e1f1acf459013fb6a0c6"
+    },
+    {
+      "path": "legacy/windows/START_3ALORA_WINDOWS.bat",
+      "sizeBytes": 75,
+      "sha256": "a3828d7b0114395e08bdbd9bee51952dda7ffe4282de5ae1475bc01291582bdd"
+    },
+    {
+      "path": "lib/app-error.js",
+      "sizeBytes": 796,
+      "sha256": "04ecf7d5465f36017d9fb365dfe574390b92f83159240edb8fb1ef6ba0285e2e"
+    },
+    {
+      "path": "lib/archive.js",
+      "sizeBytes": 3621,
+      "sha256": "ebd53bc6f7ab92c7c5af9a4eb5fa29999e0c6327768cff0fc0bdbe3c95d65815"
+    },
+    {
+      "path": "lib/config.js",
+      "sizeBytes": 1496,
+      "sha256": "4c587fef917b9597f179d203f991f8b11866e9e038a40e36c93808fcfdd65d87"
+    },
+    {
+      "path": "lib/product-images.js",
+      "sizeBytes": 1479,
+      "sha256": "14eeb700abf972792565fbe59657a45be4538a753985a61454b9d73581e89ff2"
+    },
+    {
+      "path": "lib/production-guard.js",
+      "sizeBytes": 2325,
+      "sha256": "60b939875b61b7e06368f30af219b59fa3e77505d4d26643a83ca1479817d7b0"
+    },
+    {
+      "path": "lib/rbac.js",
+      "sizeBytes": 1305,
+      "sha256": "075141c76bba71c5932c1194840b4e718304e54e7eb9046d071cd99bba1bc97e"
+    },
+    {
+      "path": "lib/security.js",
+      "sizeBytes": 1151,
+      "sha256": "bc846d84177d79d3fccb77b55b202c88f19119a488dab76cde76f02a9ce35f03"
+    },
+    {
+      "path": "lib/validators.js",
+      "sizeBytes": 4232,
+      "sha256": "358d3cd0b701e4539fdc9b82ded32bb43b4d425a59bdf8c518bfe8bb2e7d1a40"
+    },
+    {
+      "path": "package-lock.json",
+      "sizeBytes": 26111,
+      "sha256": "cb6f67f8152e2099de8d2c3b1397ed837aab50380b8e948073a5a8fbd4471e51"
+    },
+    {
+      "path": "package.json",
+      "sizeBytes": 3908,
+      "sha256": "a911216393c0b6188d1713e400627ac94d1917e158c549e6d0402fce2336de3f"
+    },
+    {
+      "path": "public/SAMPLE_FABRIC_SHEETS_IMPORT.tsv",
+      "sizeBytes": 261,
+      "sha256": "53e911f9e20b562c6019f9c1dfff451030ff67ba086d348945ca72c1c5d4f54e"
+    },
+    {
+      "path": "public/SAMPLE_STOCK_RECEIPT_SHEETS.tsv",
+      "sizeBytes": 445,
+      "sha256": "fe9c1842d9fc5fe70081c80a90f3ed4d470615f577cfe634b3910a71bbac79db"
+    },
+    {
+      "path": "public/alora-admin.html",
+      "sizeBytes": 11679,
+      "sha256": "613dd6c183c5b1744f731dd2fceee135142971f595de987c34f7c2711832f7e3"
+    },
+    {
+      "path": "public/alora-admin.js",
+      "sizeBytes": 7462,
+      "sha256": "9d668d454fa358e8243d5737c3a519bf7d1693ffdce5ed793aeba453787673df"
+    },
+    {
+      "path": "public/alora-embed.js",
+      "sizeBytes": 238,
+      "sha256": "7d4217b7f07fa9acde94c3f7ac7257aada91f9131b131ef6614f2422ceb3999e"
+    },
+    {
+      "path": "public/alora-finance.html",
+      "sizeBytes": 4386,
+      "sha256": "b1840e8a2e59526ac66b5182c38eb2c7f4e5080e262ccdb555c4438aadd81ff1"
+    },
+    {
+      "path": "public/alora-finance.js",
+      "sizeBytes": 3076,
+      "sha256": "8fa1fe22d44dd61123c37c67e8456ea023e069c1c5281bc709d1f808a9104c66"
+    },
+    {
+      "path": "public/alora-orders.html",
+      "sizeBytes": 4164,
+      "sha256": "9ba97f9c23989af205f6bea7b9f76fe2d74f23b1d68a742953cb84fe92baebbb"
+    },
+    {
+      "path": "public/alora-orders.js",
+      "sizeBytes": 9267,
+      "sha256": "c870dac87a6112d1e983655b5745e41a4fd75e9e5bc5d12785f605e42da250eb"
+    },
+    {
+      "path": "public/alora-price-editor.js",
+      "sizeBytes": 7056,
+      "sha256": "208e749ec2123ebced64e77fe1cfe60818aad5f5dcdb414662d6598c9f07a665"
+    },
+    {
+      "path": "public/app.js",
+      "sizeBytes": 193723,
+      "sha256": "4b361aa31e04733a8bd13baa73c6c22c53a9b4ef7b3e78072bd33f59dd98385e"
+    },
+    {
+      "path": "public/bootstrap.js",
+      "sizeBytes": 2265,
+      "sha256": "a9d101c2e48b8134b8eb2fdb17b2465d9cead7a286d577f5e77035d67ca7d9e9"
+    },
+    {
+      "path": "public/brand-symbol.svg",
+      "sizeBytes": 3336,
+      "sha256": "cb0d42104276ec062f4824986c64a082101b6617c5e6f3acf35d8e838c5f5ae1"
+    },
+    {
+      "path": "public/chat.js",
+      "sizeBytes": 78208,
+      "sha256": "8db300d5a1fe3806827d4083cb7b529a0d1da053db14ad37126cd02c79b3cb1d"
+    },
+    {
+      "path": "public/enterprise.css",
+      "sizeBytes": 21343,
+      "sha256": "25ab77380405c15bd4b97febc983462192ae13550bb5cc74fdca679a304dac74"
+    },
+    {
+      "path": "public/enterprise.html",
+      "sizeBytes": 9364,
+      "sha256": "3d3fbb2b1091b14bf9b0263a5e76c8d730c33ddc04494b24c9cc585e77495b75"
+    },
+    {
+      "path": "public/enterprise.js",
+      "sizeBytes": 120771,
+      "sha256": "9df5afb28ce208f6522a66d4f1ca7918a6620fadf6869c98e86b76f0d397b421"
+    },
+    {
+      "path": "public/fonts/OFL-Inter.txt",
+      "sizeBytes": 4380,
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+    },
+    {
+      "path": "public/icon-192.png",
+      "sizeBytes": 6957,
+      "sha256": "b79229e22d5ccf9b5ce77cbeab96334d896921e426a81511f76f1790d748799f"
+    },
+    {
+      "path": "public/icon-512.png",
+      "sizeBytes": 24881,
+      "sha256": "50e2649e824c1620340f8baccbfff971fe28a0565061014243e0f5d7bf0d10f4"
+    },
+    {
+      "path": "public/index.html",
+      "sizeBytes": 68230,
+      "sha256": "840d456fb365cc0ebdb979466b601a409ecdbfce533ef8ab7173324dd0bab18c"
+    },
+    {
+      "path": "public/live.js",
+      "sizeBytes": 3168,
+      "sha256": "4b97ab132be0b55e3a9b6cd15a10f8d03b486f14454e7e2bcffae09324de698b"
+    },
+    {
+      "path": "public/logo.png",
+      "sizeBytes": 201742,
+      "sha256": "1cf6d12ecfc8309deec1606793734a81a1c248203044ad6058e32cccd46d7e94"
+    },
+    {
+      "path": "public/manifest.webmanifest",
+      "sizeBytes": 587,
+      "sha256": "1733856b777314d6f9585c0a5fdd077b821bc4e78c3834a284ee27d4c405fb43"
+    },
+    {
+      "path": "public/pwa.js",
+      "sizeBytes": 6542,
+      "sha256": "eb9ea5a2dbfabc3b84d6f25f41b2356da15ca296ea33cb6dcf79a52d444418ed"
+    },
+    {
+      "path": "public/security.js",
+      "sizeBytes": 265,
+      "sha256": "83c754ac3c91c0458e1de3586e893c4544927708a799ccf2024dc3eb52d65b34"
+    },
+    {
+      "path": "public/shell.js",
+      "sizeBytes": 9174,
+      "sha256": "0e0cf91c438eade3753d6d88d2f9215f05c85a898821493734f6d83b436491ad"
+    },
+    {
+      "path": "public/styles.css",
+      "sizeBytes": 60768,
+      "sha256": "f574ae39ab42a793faf03cb0a132757a01989e4b6db6b3455dd8af538419a827"
+    },
+    {
+      "path": "public/sw.js",
+      "sizeBytes": 2020,
+      "sha256": "5596c6eb069beb9087efabf57d89182c82776e0bc24f5e53763d48374f03de47"
+    },
+    {
+      "path": "public/ui-core.js",
+      "sizeBytes": 5371,
+      "sha256": "3bcacef7a8ac7a3aaf15ef9076d6fc1fe66f3d0566411e1105449383f894d935"
+    },
+    {
+      "path": "public/ux.js",
+      "sizeBytes": 2098,
+      "sha256": "dbfd1175be451854e1d6a49d13526880f069679bff4da5d8a3ff36f27087f2f3"
+    },
+    {
+      "path": "public/v22-camera.js",
+      "sizeBytes": 3029,
+      "sha256": "4ec8664718b8c993cdafab14b3d1517acb403945715fd75395e2e3b163392b01"
+    },
+    {
+      "path": "public/v22-embedded.css",
+      "sizeBytes": 3076,
+      "sha256": "2a1627c9453989df596c9b166bb869dc5726d7f0e2841c789df98ad5ed99d0e1"
+    },
+    {
+      "path": "public/v22-executive.css",
+      "sizeBytes": 36076,
+      "sha256": "7c32e54181a6b2a69b9746fe06c97270c3d684876b6e21cac58d09fdfe102d3e"
+    },
+    {
+      "path": "public/v22-icons.js",
+      "sizeBytes": 3152,
+      "sha256": "0df5454b9349e8ced0d9dbf991702bf09484fe93b238c7037855d61c1fbdbfc0"
+    },
+    {
+      "path": "public/v22-interactions.js",
+      "sizeBytes": 3811,
+      "sha256": "1d37c199eff417ec81ecae80a446dd028f8a1cfa25ecbd1613231d00bcd040fc"
+    },
+    {
+      "path": "public/v22-legacy.css",
+      "sizeBytes": 2638,
+      "sha256": "ab61fb0fab231d419484cf3a6496891725c8d83f7e36d7fc3bb1c0657b6c0d92"
+    },
+    {
+      "path": "public/v22-shell.js",
+      "sizeBytes": 10064,
+      "sha256": "22cc2c8b68a22682e639c7b1670a265f38c10ffe6ce7a1b19ca63fe17f5b5a13"
+    },
+    {
+      "path": "public/v22-theme.js",
+      "sizeBytes": 227,
+      "sha256": "7630f4ab66bef516ee19edef22a95b3117b9909048155cf394d5a8bde267b308"
+    },
+    {
+      "path": "public/v22-tokens.css",
+      "sizeBytes": 1588,
+      "sha256": "6162e1578c5f1c65ee4ad6f7eff7546a1fe4d7f951498dfb401c8b2862285ec5"
+    },
+    {
+      "path": "public/v23-neumorphic-login.css",
+      "sizeBytes": 16957,
+      "sha256": "ac3a18d24905b068c2bb1341b9e49ac89c9725e4b967ca87d9c0ee7e58bc1982"
+    },
+    {
+      "path": "public/v23-neumorphic-motion.js",
+      "sizeBytes": 1888,
+      "sha256": "9dcd0fe30929bb629542b72b1ae6269d8f4772dd358ad21497a78b1ba3a5366e"
+    },
+    {
+      "path": "public/v25-sku.css",
+      "sizeBytes": 2072,
+      "sha256": "60b449c8b4888f48da29ed6c1fbb75c6e7c14433821f49acd313113471876199"
+    },
+    {
+      "path": "public/v25-sku.js",
+      "sizeBytes": 20835,
+      "sha256": "806038c5c9060da4d805e2029388d480a224419ac22b65cf50d773f49c5cb5d0"
+    },
+    {
+      "path": "public/v25-workspace.css",
+      "sizeBytes": 1106,
+      "sha256": "e05acccc23c420a101e51d539c4e4d7e4d84aafa4d6514fb03554093dff13ee6"
+    },
+    {
+      "path": "public/workspace.css",
+      "sizeBytes": 124535,
+      "sha256": "732a1d0cacef833b8347d269e5e84219730aa17ca9455847e75aebed5e0bd030"
+    },
+    {
+      "path": "railway.json",
+      "sizeBytes": 314,
+      "sha256": "8f669cf841ab9c6e7bdb9618a15ae132b6e386c618465c6604975b534f51719a"
+    },
+    {
+      "path": "release-windows/3ALORA_INSTALL_AND_START.ps1",
+      "sizeBytes": 3317,
+      "sha256": "3cc0e34d9dcd41e6658e68cf03c5d580ee751aa09948f879a54b84e0db296060"
+    },
+    {
+      "path": "release-windows/CHECK_LOCAL_DOMAIN.ps1",
+      "sizeBytes": 1002,
+      "sha256": "18694dcdc92bfce81d387a6418e23acb8cfe962fd22dc399976a213346c9d438"
+    },
+    {
+      "path": "release-windows/SETUP_AUTOSTART_AFTER_QA.ps1",
+      "sizeBytes": 2895,
+      "sha256": "38cd64aaee319e2d54d4d5024651839185f4461da4217926aec593241cc9e5a3"
+    },
+    {
+      "path": "render.yaml",
+      "sizeBytes": 1305,
+      "sha256": "0c580bf7d6b457c9a1ad036e32c127d48b798ae2fce9f7862e81163059e995fd"
+    },
+    {
+      "path": "requirements-production.txt",
+      "sizeBytes": 112,
+      "sha256": "040c615774e47ae79bd3b539eb20ba28a5165fde7a58bee01a849cfc907aca25"
+    },
+    {
+      "path": "reset_admin_password.js",
+      "sizeBytes": 2990,
+      "sha256": "b956321d7378abd2240118aeeacf0c7682822cccb3672c75f38910cae96acc6e"
+    },
+    {
+      "path": "resources/MAU_COST_SHIP_CAN_DUYET.xlsx",
+      "sizeBytes": 51415,
+      "sha256": "81561241425aa4ef9036ffc392d035163754c4501f855c97f8efc0844a73e01f"
+    },
+    {
+      "path": "resources/YEU_CAU_GOC_3ALORA.md",
+      "sizeBytes": 31712,
+      "sha256": "05e95e70ae062e3f05bbe8a98e00dee685f243f3d28e5c1ad44c2ec22ce08bc0"
+    },
+    {
+      "path": "resources/pricing/BANG_GIA_VA_DONG_GOI_XEM_XET.xlsx",
+      "sizeBytes": 63194,
+      "sha256": "eeb5955e4ce85349994725dfc6580a7f63264dc1126b58d597bc4fed7ba7f7b8"
+    },
+    {
+      "path": "resources/pricing/COST_NGUON_CHO_DUYET.tsv",
+      "sizeBytes": 7053,
+      "sha256": "473df3d9b3de077cb74d2dfcceabee0eb1a0d38cd2665f92ab4c4b4ed67d4fd4"
+    },
+    {
+      "path": "resources/pricing/SHIP_SGB_2025_CHO_DUYET.tsv",
+      "sizeBytes": 10635,
+      "sha256": "9a04267353ecaaaa1f3e0de6e2912eb9512c781333cc9f170e76abdb4731f966"
+    },
+    {
+      "path": "scripts/windows/3Alora.ps1",
+      "sizeBytes": 9223,
+      "sha256": "8626ed9d9233ae06992b7b658eac28df5969b1edd14c6d2bd5a6ba954e25b81b"
+    },
+    {
+      "path": "scripts/windows/AloraService.cs",
+      "sizeBytes": 3230,
+      "sha256": "fe8b4d653ae8c20053bc6c29a4fd878cc4d6e75b88765aab8c0b0261007370b9"
+    },
+    {
+      "path": "scripts/windows/Check-Domain.ps1",
+      "sizeBytes": 1313,
+      "sha256": "1eef508728e56e2b7743b638eeac7e6d0cb0812fe27cc4701e6278649264e54e"
+    },
+    {
+      "path": "scripts/windows/Production-Gate.ps1",
+      "sizeBytes": 2413,
+      "sha256": "14a526b2d7c4bb2091bd93c01343053aa8a7f4b6b138c8f56b16775eed630114"
+    },
+    {
+      "path": "scripts/windows/Restore-Copy.ps1",
+      "sizeBytes": 733,
+      "sha256": "7910714184239525fc7bdbfd77e97b7728e11825c9ba509546e54f80d22b4da3"
+    },
+    {
+      "path": "server.js",
+      "sizeBytes": 249618,
+      "sha256": "808c6892b17e7ccdf97e9f9aec608b6da40631981e7ea1ab9e9164b7d8e9b5d1"
+    },
+    {
+      "path": "src/core/api-envelope.js",
+      "sizeBytes": 1023,
+      "sha256": "42a06aeb9333a7e841bf8cd3ca2b2c40de7401bcd6ad29b6efeaae8dbf29e5e0"
+    },
+    {
+      "path": "src/core/request-context.js",
+      "sizeBytes": 428,
+      "sha256": "c9e8b4039fd34e46f27ff17f4d1ce1b369742d8be60bbb3a21703a200f99559c"
+    },
+    {
+      "path": "src/database/migration-runner.js",
+      "sizeBytes": 1993,
+      "sha256": "00674369ee8866322458e3189c3c2d9ea3bd313f575404a068aefd25e29741d2"
+    },
+    {
+      "path": "src/database/migrations/016-professional-core.js",
+      "sizeBytes": 3690,
+      "sha256": "d88408b02356b36dfd596c381cd43527199880c8cf8e41d139ee5a6ec35dd487"
+    },
+    {
+      "path": "src/database/migrations/017-stock-sku-catalog.js",
+      "sizeBytes": 1839,
+      "sha256": "81845de05ce43209e50d142ac950e8281c99808548a399322a9fef204b95f067"
+    },
+    {
+      "path": "src/database/migrations/018-sales-reports.js",
+      "sizeBytes": 746,
+      "sha256": "aa8945a6df8a603dd1a6cfc8dfde7c722cc4354b8b20c90ede403015e5030e5d"
+    },
+    {
+      "path": "src/database/migrations/019-operations-reliability.js",
+      "sizeBytes": 1139,
+      "sha256": "3af3ec77acb95d839c0e3ac5fdbc282ba911031cc3e52d2486d7ca2962e4c5bd"
+    },
+    {
+      "path": "src/database/migrations/020-chat-partners.js",
+      "sizeBytes": 2511,
+      "sha256": "88c90625ef2ac771254fed252c148d3b471adee007f633a88361e5782caa8948"
+    },
+    {
+      "path": "src/database/migrations/021-chat-mobile.js",
+      "sizeBytes": 3178,
+      "sha256": "2fbc4587c8e8650e423faa2f30af9a7e387ba669a5122fbbc4835d5fb12fdf01"
+    },
+    {
+      "path": "src/database/migrations/022-multisource-intake.js",
+      "sizeBytes": 3235,
+      "sha256": "eb2b6847944b31efd72fce3c3be85e3de3a8ee1ff726a02cbb76c87687cb4faf"
+    },
+    {
+      "path": "src/database/migrations/023-pwa-web-push.js",
+      "sizeBytes": 743,
+      "sha256": "7b83b77d5eb00fa88053399cc9271715185d3ed0a884ab91f150593583a3759f"
+    },
+    {
+      "path": "src/database/migrations/024-chat-department-groups.js",
+      "sizeBytes": 1961,
+      "sha256": "126bcde13107f73cb51b1b4b832d07f530555ba51ae74fcf3727f9fc8eb78c2f"
+    },
+    {
+      "path": "src/database/migrations/025-message-lifecycle.js",
+      "sizeBytes": 2587,
+      "sha256": "c1d73f8d7f962b90bf1aa460bd20920beac85d313622b4dd73748a602948c4c1"
+    },
+    {
+      "path": "src/database/migrations/026-operational-upgrade.js",
+      "sizeBytes": 1291,
+      "sha256": "6ece2968c576c82c0bf326621040b21e18699f124e83645ad96d7f6b676a85b3"
+    },
+    {
+      "path": "src/database/migrations/027-etsy-alora-sync.js",
+      "sizeBytes": 4103,
+      "sha256": "548c7756373c25e7e7c199cf82f4b59d0d40fd8cf7373ee6837afc808a4c7b06"
+    },
+    {
+      "path": "src/database/migrations/028-etsy-finance.js",
+      "sizeBytes": 1470,
+      "sha256": "55016303c05f424e8a1922c898f5f6e048bcfc102a1c8cc0961893c1d6d55616"
+    },
+    {
+      "path": "src/database/migrations/029-price-source-drafts.js",
+      "sizeBytes": 1054,
+      "sha256": "fc71fa613b2812a49ace0e20e20abc0730b6dd5d6c040a3dd6d55e3a0a5dcb98"
+    },
+    {
+      "path": "src/database/migrations/030-packing-weight-quote.js",
+      "sizeBytes": 1687,
+      "sha256": "18b6fdba5de090865439f3f407ecd27bd82aa08de2cad1907fbc1d1365d58fb4"
+    },
+    {
+      "path": "src/database/migrations/031-enterprise.js",
+      "sizeBytes": 9676,
+      "sha256": "21f4a6e282b7675c0d77980ce6974689e612439b2dab4a3642f498caa177d0be"
+    },
+    {
+      "path": "src/database/migrations/032-v25-smart-sku.js",
+      "sizeBytes": 5161,
+      "sha256": "4423ee144c1e01ca7db445ee1412b166568c9cef14ba1faae4be11c0073d56c9"
+    },
+    {
+      "path": "src/database/migrations/033-v25-safety-gates.js",
+      "sizeBytes": 1444,
+      "sha256": "1c4a17e5143ded7eab71f210741522aa82894dc7f4c04e0450bf9e9421b5fcba"
+    },
+    {
+      "path": "src/domain/inventory-units.js",
+      "sizeBytes": 697,
+      "sha256": "43db2f5eab13b7cf9660dffa41835c5522ecefe30454639866af0425a3f69bf3"
+    },
+    {
+      "path": "src/domain/quick-workflow.js",
+      "sizeBytes": 1747,
+      "sha256": "d7c8f4759d005881d38ce658c186e13f7d4b7f7698c2458daec6270ddd8d0463"
+    },
+    {
+      "path": "src/domain/workflow.js",
+      "sizeBytes": 4198,
+      "sha256": "1145cead6db035876e0f4ba920b5d0d053de9ae1deffd7522454f06739721595"
+    },
+    {
+      "path": "src/modules/auth/login-guard.js",
+      "sizeBytes": 1564,
+      "sha256": "1fa3568ec6090388d8f5928fa7737d00326043810fec8f0c4f09e098c9a9a36c"
+    },
+    {
+      "path": "src/modules/chat/chat-groups.js",
+      "sizeBytes": 15893,
+      "sha256": "14bbe566641a1d6171e0aeef558d08a0b1904bf2f400ca904850616316860cb5"
+    },
+    {
+      "path": "src/modules/chat/chat-lifecycle.js",
+      "sizeBytes": 10241,
+      "sha256": "fcf0b7b610bc8ac2531b885a81a081889941f0928b9ea5415d629943933b11cb"
+    },
+    {
+      "path": "src/modules/chat/chat-mobile-service.js",
+      "sizeBytes": 19817,
+      "sha256": "539bbfefc0e7254a7dfea9e2e5115f539ab69c34e03428acad5d9b7103271725"
+    },
+    {
+      "path": "src/modules/chat/chat-service.js",
+      "sizeBytes": 14783,
+      "sha256": "2b6cc0dd4316998314658286eccdd0b6b7c670d86fcf244008b5f8ae0476ba7f"
+    },
+    {
+      "path": "src/modules/chat/chat-web-push.js",
+      "sizeBytes": 4688,
+      "sha256": "ac1646475351c036edbcd9e7388d28f4f465d0e35d0ae9b0d70f0a94ed9c294a"
+    },
+    {
+      "path": "src/modules/chat/message-window.js",
+      "sizeBytes": 1172,
+      "sha256": "19103ecb8c7c41b9490f032f8661691b7402229248d5361243de391a7d6ded9a"
+    },
+    {
+      "path": "src/modules/enterprise/access.js",
+      "sizeBytes": 4018,
+      "sha256": "d97ea4e35e80dfa22452275b9ecd09c9ceb99992a1638050034d05d2583c98d0"
+    },
+    {
+      "path": "src/modules/enterprise/analytics.js",
+      "sizeBytes": 7996,
+      "sha256": "32768ba15776ed5a2c59ea6c69a33e38e530dbab906ab60427b29797b5c375e3"
+    },
+    {
+      "path": "src/modules/enterprise/chat.js",
+      "sizeBytes": 17691,
+      "sha256": "24f2b624870c996037652bd96156f7dbd38ef74d07ada8bd73eab34c7d4c04c3"
+    },
+    {
+      "path": "src/modules/enterprise/common.js",
+      "sizeBytes": 3487,
+      "sha256": "5e4e33b0354bfd967874686e6a4512c6ceaa0d3f90eed8d59a64b37a3985b55d"
+    },
+    {
+      "path": "src/modules/enterprise/estimates.js",
+      "sizeBytes": 13828,
+      "sha256": "dadabcf9c6b2652b8bac3d3f3308e2494cecc51f3c23ac6addace7c6e0b5b0c0"
+    },
+    {
+      "path": "src/modules/enterprise/export.js",
+      "sizeBytes": 8073,
+      "sha256": "fc83c7ee8f8883d516180f92ab5e41be50b2d9f3f9059e89020dec16c155028b"
+    },
+    {
+      "path": "src/modules/enterprise/finance.js",
+      "sizeBytes": 17663,
+      "sha256": "e5aa3da106be0820f79773f8f8887d7731ed76b5087d0167dca7045094d929ac"
+    },
+    {
+      "path": "src/modules/enterprise/import-prices.js",
+      "sizeBytes": 8507,
+      "sha256": "628f3546ab9eb4d62be7c36a201a9db11927df2f52a4e0f344ae4fce26e31e62"
+    },
+    {
+      "path": "src/modules/enterprise/legacy-chat.js",
+      "sizeBytes": 4351,
+      "sha256": "eaa91686f64f5eaff295eb4a1b22f052c574cc56f56b227a3e08cc5c57396baf"
+    },
+    {
+      "path": "src/modules/enterprise/legacy.js",
+      "sizeBytes": 6162,
+      "sha256": "f4498158e77a86e9b7897ade1559c4dac5c54efa4bc3107450cc1cf06580a1dd"
+    },
+    {
+      "path": "src/modules/enterprise/notification-checks.js",
+      "sizeBytes": 1890,
+      "sha256": "e4515d7b49019a7819bdc2d6b203977628a5e4f3606ade0047cfb3aac2cd94fd"
+    },
+    {
+      "path": "src/modules/enterprise/order-designs.js",
+      "sizeBytes": 5895,
+      "sha256": "1029b0a6ea83c383459fcfb75f2889066021ee1c4d0b007298873c375777839e"
+    },
+    {
+      "path": "src/modules/enterprise/orders.js",
+      "sizeBytes": 10832,
+      "sha256": "d0c5a872525d779360cd6e824be90aa45b651bc4189043f28fc3effbdfcb6304"
+    },
+    {
+      "path": "src/modules/enterprise/products.js",
+      "sizeBytes": 5310,
+      "sha256": "061fc0f84adf7c6fb150a39c878282cf521e5432875608711d185c30e039cbf3"
+    },
+    {
+      "path": "src/modules/enterprise/routes.js",
+      "sizeBytes": 57919,
+      "sha256": "78f6de5e6d0aa16e24dff5e8315d862a493809d4bf9c8dde861b9b89326646fe"
+    },
+    {
+      "path": "src/modules/enterprise/scanner.js",
+      "sizeBytes": 9035,
+      "sha256": "717c0321ae08e49ab5f743fa8e5b2aa23567adaf87051615cd0f8c8eeddbac78"
+    },
+    {
+      "path": "src/modules/etsy-sync/alora-etsy-sync.js",
+      "sizeBytes": 36108,
+      "sha256": "2aa107275a89c8ad74f638e3359d6682132449339c8bbfe0a973645805a148fc"
+    },
+    {
+      "path": "src/modules/etsy-sync/finance.js",
+      "sizeBytes": 9464,
+      "sha256": "8853071c077a9427d7c0ef05b6a08dcb6b22cb7edade9d6d219b40ea26af07bb"
+    },
+    {
+      "path": "src/modules/etsy-sync/packing.js",
+      "sizeBytes": 8276,
+      "sha256": "3f619a983144bf415d3f26cf9d9a83956464ab3e1b023147d26f8340019c4612"
+    },
+    {
+      "path": "src/modules/etsy-sync/pricing.js",
+      "sizeBytes": 6491,
+      "sha256": "77fc56900ed735fef1f5255154700b1ca4cd3b74f65a3a192fc407fe5092ae84"
+    },
+    {
+      "path": "src/modules/import/import-batches.js",
+      "sizeBytes": 2712,
+      "sha256": "deb1d5de4f7ed3538e5ffb2a28e1d7c2316dd08c02543cc600ac1bcdfeda9ed7"
+    },
+    {
+      "path": "src/modules/import/multi-source-intake.js",
+      "sizeBytes": 14387,
+      "sha256": "1cc8ec4c07b6bcd6f1a835215fab7932e71a6d0af68ba2b6f98ef7b824f1b2e8"
+    },
+    {
+      "path": "src/modules/inventory/inventory-service.js",
+      "sizeBytes": 12961,
+      "sha256": "05c3bde1b34ae107fed498227b055a5167969cff1ed1208b98c4fa26218ffc24"
+    },
+    {
+      "path": "src/modules/operations/backup-worker.js",
+      "sizeBytes": 4224,
+      "sha256": "9c981107f9cd51b91b2620bd1e101b6f5937056215d7569585e052776ef9df0e"
+    },
+    {
+      "path": "src/modules/operations/operations-service.js",
+      "sizeBytes": 2168,
+      "sha256": "c2a1dae677adfd94c06140eb156e187146a87b75d8774271d8edd5fd173d4a59"
+    },
+    {
+      "path": "src/modules/operations/realtime.js",
+      "sizeBytes": 1350,
+      "sha256": "b28f7ff8ed68f574fb823bcb31c41ffe232156b00211a7aa7aedfd19a4e8d599"
+    },
+    {
+      "path": "src/modules/sales/month-snapshots.js",
+      "sizeBytes": 2670,
+      "sha256": "04fbc04481cab8b0dfd7c8e5fd26d6a468afef0d8282732917e0d0b94ebfa980"
+    },
+    {
+      "path": "src/modules/v25/access-guard.js",
+      "sizeBytes": 1084,
+      "sha256": "408a0e62f2575a3ea3731ee90194fa09446317b57f01f797743008339cf51768"
+    },
+    {
+      "path": "src/modules/v25/service.js",
+      "sizeBytes": 43442,
+      "sha256": "d55f7861e50fff57970d286abf78442365a2c3f671ed064cb27a3546f54bc76b"
+    },
+    {
+      "path": "src/modules/v25/sku-rules.js",
+      "sizeBytes": 6430,
+      "sha256": "ddde2981aa04a603f69d3a8dc4fc45e3a29cef85867ee4c3df27e651a1083a4d"
+    },
+    {
+      "path": "src/modules/workflow/quick-scan-service.js",
+      "sizeBytes": 8106,
+      "sha256": "50ef12bb9fd21670acc05fda1eaf421b2287ca54eaca3874a1d7c55ca25930e1"
+    },
+    {
+      "path": "tests/alora-admin-menu-links.test.js",
+      "sizeBytes": 2188,
+      "sha256": "ec6b65327c345df8da07351fc3edfb77b880c62d29d198cbb849f9303840a343"
+    },
+    {
+      "path": "tests/alora-appsscript-contract.test.js",
+      "sizeBytes": 1771,
+      "sha256": "f423d6f87b664d90001442414cf53899e0f03c94f49872dac95cc773dff1c84e"
+    },
+    {
+      "path": "tests/alora-embed-http.test.js",
+      "sizeBytes": 3026,
+      "sha256": "060788f526085264e6084dd632f2e7b80a05dd008855db06ddda5de06ea139fd"
+    },
+    {
+      "path": "tests/alora-etsy-sync.test.js",
+      "sizeBytes": 22415,
+      "sha256": "a715a58e50cdb934ebbc1c7b7fc788267746d979073d002713f28aff3bfbb706"
+    },
+    {
+      "path": "tests/alora-price-appsscript-contract.test.js",
+      "sizeBytes": 2131,
+      "sha256": "006bbb6185e813a6993ab3555be085eb71777ea40f716397fdd29bae0053d142"
+    },
+    {
+      "path": "tests/alora-ui-browser-check.py",
+      "sizeBytes": 5787,
+      "sha256": "0a4ec35e2b2466655eb0653d0653a395847ff3d62c0eb7351001ca218aa5540f"
+    },
+    {
+      "path": "tests/chat-access.test.js",
+      "sizeBytes": 7653,
+      "sha256": "8b78e3130667bc02e886d8ab3d7c9221cfef8b92f5781afc50c41c2876230991"
+    },
+    {
+      "path": "tests/chat-client.test.js",
+      "sizeBytes": 7478,
+      "sha256": "81fb31c0e914f2654f699af44e9b5c8ea850b72c6346af31dd8fb2998140b39a"
+    },
+    {
+      "path": "tests/chat-groups.test.js",
+      "sizeBytes": 6199,
+      "sha256": "040bdb7f04e99677211618798fb715a99a0f39f51c3183cb3beb70c4aa8bf9ea"
+    },
+    {
+      "path": "tests/chat-migration-repair.test.js",
+      "sizeBytes": 4445,
+      "sha256": "ca53dec4dc1b98baea99a5c1aef2fb235441ce1a35627186dc702c8862517c6d"
+    },
+    {
+      "path": "tests/chat-mobile.test.js",
+      "sizeBytes": 8362,
+      "sha256": "7e3408fbc0aa82025aa5d57b9af27dfd1cd6154c67fee79de0f0290b6acd1738"
+    },
+    {
+      "path": "tests/chat-v177.test.js",
+      "sizeBytes": 7260,
+      "sha256": "aeba97e77941244fbe274c22e06fd2c5e24167c8b47087dd77595d2df84d7fd9"
+    },
+    {
+      "path": "tests/e2e.test.js",
+      "sizeBytes": 16284,
+      "sha256": "a493e5f4274edf145f3248223adb61562e9c270055159027a4ddee91d49b8604"
+    },
+    {
+      "path": "tests/enterprise-appsscript.test.js",
+      "sizeBytes": 4164,
+      "sha256": "db0b62c2aa9dbf3b535e7e3991e560aa72bd4837dd5344e25eb4aa1e11949f73"
+    },
+    {
+      "path": "tests/enterprise-barcode-client.test.js",
+      "sizeBytes": 2658,
+      "sha256": "e42d019a8e729b32de3e424b2bbb8e868b760214880d2e40a417f86805350704"
+    },
+    {
+      "path": "tests/enterprise-barcode.test.js",
+      "sizeBytes": 9831,
+      "sha256": "f90053bb0b7fd59efd2b7f11d7b75ddd41c68fb06eab21e4ea002f0a84fe0475"
+    },
+    {
+      "path": "tests/enterprise-camera.test.js",
+      "sizeBytes": 2383,
+      "sha256": "8fcc944c2c0e3e8b5806f6a245551e71c05c0bc8b5ab54e783c4580dc71d1a5f"
+    },
+    {
+      "path": "tests/enterprise-client.test.js",
+      "sizeBytes": 3333,
+      "sha256": "5116869e34c19f72cdecea9ebc57ad8e7e9c8d0cce58e53e9f46fbd6c5fa6640"
+    },
+    {
+      "path": "tests/enterprise-dashboard-query.test.js",
+      "sizeBytes": 1258,
+      "sha256": "c059be93b87012fccff3a262ee6a40c93387de94f090808142af8955c78dd9f4"
+    },
+    {
+      "path": "tests/enterprise-login-ui.test.js",
+      "sizeBytes": 1758,
+      "sha256": "f87422fd588da8cb8ebcbc5f560d9997ff005924a2263aa68c02f01788437d25"
+    },
+    {
+      "path": "tests/enterprise-notifications.test.js",
+      "sizeBytes": 4027,
+      "sha256": "4a93566e542a0cae6454d73ce06ec460e1a7ef64719ab04f37d481326be54ade"
+    },
+    {
+      "path": "tests/enterprise-operations.test.js",
+      "sizeBytes": 6598,
+      "sha256": "b23991dad42cdbc802a2feacbf53647b264dac10cfc8721c4c5c3d2a9b9525cc"
+    },
+    {
+      "path": "tests/enterprise-order-design-client.test.js",
+      "sizeBytes": 2479,
+      "sha256": "021a00153e73bc320eac8b6d8ea596fbdb7194022504c560c255a13809925067"
+    },
+    {
+      "path": "tests/enterprise-order-designs.test.js",
+      "sizeBytes": 10403,
+      "sha256": "01106cdc25252685f145dd17e095d3d7236d7ec006f1466eb0e345649a1cd47a"
+    },
+    {
+      "path": "tests/enterprise-push-device-client.test.js",
+      "sizeBytes": 1425,
+      "sha256": "335a5155578c36b39e947a1e1c9f47cc1251e6740a1952d2e1868f0030471c54"
+    },
+    {
+      "path": "tests/enterprise.test.js",
+      "sizeBytes": 61597,
+      "sha256": "b70719eee41087dd587b7c0b4e90264a5471a5b40201962d5368b1dedbe9dada"
+    },
+    {
+      "path": "tests/helpers/mock-ui.cjs",
+      "sizeBytes": 5494,
+      "sha256": "9d973b9bcc9cf436f5f5a5248f3d592b09388c396a1b92c8e1eaf2aabe39bda7"
+    },
+    {
+      "path": "tests/helpers/v25-finalize.js",
+      "sizeBytes": 2159,
+      "sha256": "4ce10ddd8c5d015bfeca96d80b36d696ae90f628880a26d80bbed82f5bb76ea1"
+    },
+    {
+      "path": "tests/import-preview.test.js",
+      "sizeBytes": 2779,
+      "sha256": "2f30cef675d859931178f72373d7dba29f25a21b364414a2fbb84d78ff2ab6ff"
+    },
+    {
+      "path": "tests/intake-adapters.test.js",
+      "sizeBytes": 7861,
+      "sha256": "f74885e3fb4486bebe019c4fec7e0fbe02970f17ad5d9408ce004b0b9991a465"
+    },
+    {
+      "path": "tests/inventory-import.test.js",
+      "sizeBytes": 5107,
+      "sha256": "68bd9fe45b4ad91e24b332b503a56991a9b5041537d19da86be9e7feaf5d6cbe"
+    },
+    {
+      "path": "tests/inventory.test.js",
+      "sizeBytes": 7440,
+      "sha256": "0d8e10884d222cacc2aa797054a686a90e862d77c82fe87122eaf8606790320a"
+    },
+    {
+      "path": "tests/legacy-team-guard-autodetect.test.js",
+      "sizeBytes": 4508,
+      "sha256": "1b4e58e51642a2aa87ba1194624b1b209d68bf43a6d7601d0be211c6af7581fe"
+    },
+    {
+      "path": "tests/login-lock.test.js",
+      "sizeBytes": 2917,
+      "sha256": "0f7d6ff9f8d5bc18ea5368ea9f9c1d8adcc02cd95fd494913177496d4bff22e0"
+    },
+    {
+      "path": "tests/luxury-staging.test.js",
+      "sizeBytes": 1401,
+      "sha256": "cc3dc3f89fbecc4e5e4bfe085f6e625146fbcfc61ec25fbc4116090a50e4d933"
+    },
+    {
+      "path": "tests/migrate-data.test.js",
+      "sizeBytes": 1447,
+      "sha256": "30bfccc60a4be0158dbae82e9cf9d728063865e71da678c5f4b2582a25d39b9c"
+    },
+    {
+      "path": "tests/multi-source-intake.test.js",
+      "sizeBytes": 9185,
+      "sha256": "7ba7ad96273026916d7c7a7e23c736cec113b5dee3be92f175886306cafa7681"
+    },
+    {
+      "path": "tests/neumorphic-login.test.js",
+      "sizeBytes": 2347,
+      "sha256": "2eb4a9514a39a3a817a6ff2e28101309f76d3898697a2b4962d154af13d8cec8"
+    },
+    {
+      "path": "tests/persistence.test.js",
+      "sizeBytes": 2345,
+      "sha256": "09c40fd8c8d944fdd33f65c3b92b378d43047b8dfe7b3bbd8af9876fc6e01caf"
+    },
+    {
+      "path": "tests/product-gallery-ui.test.js",
+      "sizeBytes": 16162,
+      "sha256": "10d20b605a1d41a758be3a42b450f351f1d957011bc1907e3e4a907e06b525ec"
+    },
+    {
+      "path": "tests/product-gallery.test.js",
+      "sizeBytes": 10252,
+      "sha256": "7b60be871bb9528dd69d82eb1a85f041100c3fa89cc3f4a7641e41251c00918d"
+    },
+    {
+      "path": "tests/production-guard.test.js",
+      "sizeBytes": 2506,
+      "sha256": "82f974f5c6c5ab33ddc16ea56250f7ee50a8d69ea2fce8ae42b4895bd539183b"
+    },
+    {
+      "path": "tests/production-profile.test.js",
+      "sizeBytes": 1833,
+      "sha256": "dc5837cfe89ca9e679fea493ed219ea008d2be5544472f602382313566d575a9"
+    },
+    {
+      "path": "tests/pwa-web-push.test.js",
+      "sizeBytes": 6406,
+      "sha256": "577162d2707d770410befaeaf7076cb3953362710163818a849c8a1309b1df30"
+    },
+    {
+      "path": "tests/realtime-client.test.js",
+      "sizeBytes": 43,
+      "sha256": "e5edfaf4eefef6c4d5aa89b663f35941aeb561a5acebc88c4f5348df8140966b"
+    },
+    {
+      "path": "tests/realtime-v181-client.test.js",
+      "sizeBytes": 2206,
+      "sha256": "3a6599f1e390e86b0904aea7bfb262282d14f35d51ed57c67b40f12f3a92f556"
+    },
+    {
+      "path": "tests/release.test.js",
+      "sizeBytes": 2103,
+      "sha256": "a6d106cbbaf63a3473e81b8365f4890c15e58a07fdf8272e7df11706dd2829b3"
+    },
+    {
+      "path": "tests/safe-upgrade.test.js",
+      "sizeBytes": 2723,
+      "sha256": "56082225bc5751e6d2f96ed5f8cfd6664129cc3823fcb2a096420be73e3903d0"
+    },
+    {
+      "path": "tests/shell-client.test.js",
+      "sizeBytes": 3656,
+      "sha256": "ede4dbd63e0525fc02c74c8c79c4a055a3df87112a3ca3b2c1b7f717a5f75589"
+    },
+    {
+      "path": "tests/smoke.test.js",
+      "sizeBytes": 6275,
+      "sha256": "1e0f0784a753af50e0443847bad5b1098152291ac015428bbcec8bc10d2fe0bb"
+    },
+    {
+      "path": "tests/stock-domain.test.js",
+      "sizeBytes": 2039,
+      "sha256": "79a5ca3e1a898972385d820445aa95ab638f128addde3dbeb834a53f7ed7b0cd"
+    },
+    {
+      "path": "tests/stock-sku.test.js",
+      "sizeBytes": 10115,
+      "sha256": "ccb6e3bcd2f120811e4beb267ccf41151fd3c6c529889d7e5c1b080ea8691aed"
+    },
+    {
+      "path": "tests/test-config-isolation.test.js",
+      "sizeBytes": 1371,
+      "sha256": "9b53ab62a554b55a35a04722043914f18019aebf46e230efe69b124177ecdf82"
+    },
+    {
+      "path": "tests/test_order_file_adapter.py",
+      "sizeBytes": 5159,
+      "sha256": "d6a84216f36f90e6471886f819a760aed009810a17ec40bd28ad837512839fb9"
+    },
+    {
+      "path": "tests/ui-api.test.js",
+      "sizeBytes": 5495,
+      "sha256": "da10ac13ed551e3dee340277a35e555c2e711b55f413d1d79d989eb4f1b0bc83"
+    },
+    {
+      "path": "tests/ui-core.test.js",
+      "sizeBytes": 2251,
+      "sha256": "4a198c6248d1f189927272cc09e37ffe2f7c0865220b7f5218fa458dcd2db75b"
+    },
+    {
+      "path": "tests/ui-v1771.test.js",
+      "sizeBytes": 39,
+      "sha256": "0300d3c7fd901324791ae8e786f25a1964c1a44ee8974f98e09eb254f9791a4d"
+    },
+    {
+      "path": "tests/ui-v181-contract.test.js",
+      "sizeBytes": 2695,
+      "sha256": "1a81fcb77df55c70ddc51eedfedb919f261ce00e0c5f269a43cbd1f72cc7cfa0"
+    },
+    {
+      "path": "tests/update-persistence.test.js",
+      "sizeBytes": 3289,
+      "sha256": "b0e253f334c883b616c1cac02a3deaf2ad74600cd476d5ac109ccefdfa4f130d"
+    },
+    {
+      "path": "tests/v15-core.test.js",
+      "sizeBytes": 1706,
+      "sha256": "bcdf09de903581da8b9f4e596e937e9b92df9fd616ef874d9f39fb6a6558ecc9"
+    },
+    {
+      "path": "tests/v15-import-batch.test.js",
+      "sizeBytes": 3356,
+      "sha256": "0468518e6ea69760eddffda319707051b8202d194e17e25c5da228bae33530db"
+    },
+    {
+      "path": "tests/v15-migration.test.js",
+      "sizeBytes": 2530,
+      "sha256": "364441f2d9062aeec1ac18da81303542772cd19d2d9c2d42af16e855c9057a36"
+    },
+    {
+      "path": "tests/v16-sales-workflow.test.js",
+      "sizeBytes": 9660,
+      "sha256": "a1b730c4ec8487284630df89cd7b83fc72217aa51e88439800863991a0086a78"
+    },
+    {
+      "path": "tests/v16-ui-contract.test.js",
+      "sizeBytes": 1905,
+      "sha256": "c76da7a11c8fa649c6076bfaf80c20235cded7adb25c68275d8e56ce2838bf87"
+    },
+    {
+      "path": "tests/v17-operations.test.js",
+      "sizeBytes": 13489,
+      "sha256": "ff234e1d4f7bc568410990efd0cd3caaa05654d2f84bbf3f5a9752e7a3ecf3df"
+    },
+    {
+      "path": "tests/v18.test.js",
+      "sizeBytes": 13324,
+      "sha256": "70207cc3b8fb42210ed58d0a64d0c469ccdd96b881a0fd67b99ccf6f16998d5d"
+    },
+    {
+      "path": "tests/v20-integrated-center.test.js",
+      "sizeBytes": 1266,
+      "sha256": "2ed71b33f8784c517273bc56691388d017c34f5b458cfcc03d9cd3f352861921"
+    },
+    {
+      "path": "tests/v20-packing-and-appscript.test.js",
+      "sizeBytes": 2469,
+      "sha256": "af2b0b56018e6b59bee9edfed5b26d981cf84599f0fceb267e05e76a419e3d10"
+    },
+    {
+      "path": "tests/v22-executive-ui.test.js",
+      "sizeBytes": 2384,
+      "sha256": "e46ffbbffd6a2346e4b5de9bfe61092a79143eadf1da79f121e1eb31aae6dbc3"
+    },
+    {
+      "path": "tests/v25-http.test.js",
+      "sizeBytes": 6978,
+      "sha256": "56d56d80e42c1bd8aa39cd6f062cc2638af1838be801c080786923645f76d420"
+    },
+    {
+      "path": "tests/v25-rc2.test.js",
+      "sizeBytes": 10123,
+      "sha256": "19f2b146d50ca347740944fc1756f9b714fdd23a8e790d60df959adaa9de3d31"
+    },
+    {
+      "path": "tests/v25-safety.test.js",
+      "sizeBytes": 12174,
+      "sha256": "1591ad8170f63410790dc4a61e50a3555342f5e406484d5c3d2459d5998dfa4c"
+    },
+    {
+      "path": "tests/v25-sku.test.js",
+      "sizeBytes": 9552,
+      "sha256": "2376b29970e711fe402f7184ff8e7157cffd4bc9358455c8767bdb5fdf0f93c4"
+    },
+    {
+      "path": "tests/v25-staging.test.js",
+      "sizeBytes": 1395,
+      "sha256": "a2442b75e7f15d32fcf08a6b9185148f744daffd6f89f373d1d2560c600517c4"
+    },
+    {
+      "path": "tools/benchmark.cjs",
+      "sizeBytes": 4227,
+      "sha256": "d12d51f8bc2b60325253f37d3a9df179f58197aef425f193f5192d24f03b85be"
+    },
+    {
+      "path": "tools/check-syntax.cjs",
+      "sizeBytes": 638,
+      "sha256": "778e6dc411b92398ab74da207e23850fa9d6ef88614a1c0e655d852ef46e759e"
+    },
+    {
+      "path": "tools/configure-web-push.cjs",
+      "sizeBytes": 3583,
+      "sha256": "37f53cde01e1f987e76e16f77200b167c94ae76f643d826ccd891f139aefa831"
+    },
+    {
+      "path": "tools/diagnostics.cjs",
+      "sizeBytes": 1228,
+      "sha256": "766fcc4e4c024ee40bbcc730e191bd5ce51ca809efef753e5d18be0a596d17c2"
+    },
+    {
+      "path": "tools/export-finance-pdf.py",
+      "sizeBytes": 3546,
+      "sha256": "82b4894e8297e5cc1aa961fd0c36b61ad2c9a9f614fa861d41c1d87e2fe4ce70"
+    },
+    {
+      "path": "tools/extract-upgrade-backup.cjs",
+      "sizeBytes": 1348,
+      "sha256": "79ecc0a7f09e42761ed5f5a1938cab898fc03f79249ee00852dccfbf76693c44"
+    },
+    {
+      "path": "tools/install-python-deps.cjs",
+      "sizeBytes": 3416,
+      "sha256": "28d5e5fcf1029fad76754da631c586e762bb6438455c10ee92d36f0effcf6edb"
+    },
+    {
+      "path": "tools/luxury-staging.cjs",
+      "sizeBytes": 3845,
+      "sha256": "e15daa8e808726aeebd637c42da97dab0fc04a86301bc4c86fca03a3292330aa"
+    },
+    {
+      "path": "tools/migrate-data.cjs",
+      "sizeBytes": 1621,
+      "sha256": "828420123551c23919f20ece3b1d152d820290009b597924e8c1bb9fabce8dce"
+    },
+    {
+      "path": "tools/preview.cjs",
+      "sizeBytes": 9744,
+      "sha256": "8de412f2e87c1787769b284e667562a089973612f126f108358190ba0056b9bc"
+    },
+    {
+      "path": "tools/production-config-check.cjs",
+      "sizeBytes": 1210,
+      "sha256": "6068a49a34d645e01d1c8801222b6ff4c9d08cc56850fa9b08e5c2befe494a5b"
+    },
+    {
+      "path": "tools/python-runtime.js",
+      "sizeBytes": 1751,
+      "sha256": "c1e557b7f32c4ccc5fddb48158032bded677c4b6f2cc216360130737365664e2"
+    },
+    {
+      "path": "tools/read-price-xlsx.py",
+      "sizeBytes": 2586,
+      "sha256": "9f669c49e9c7d75c80dc40f60ce53bd5847c8a5131b1b29881017012714aefdf"
+    },
+    {
+      "path": "tools/rehearse-upgrade.cjs",
+      "sizeBytes": 8319,
+      "sha256": "cb061479268701d7153fce19271f634a3621b7cb24d7776ceb97cb0aba1b7e8d"
+    },
+    {
+      "path": "tools/restore-enterprise.cjs",
+      "sizeBytes": 3682,
+      "sha256": "c369237cc8ce6dabaaec9f4c74ad6b26a20a0a9f06f21e1f0917a0a915a24435"
+    },
+    {
+      "path": "tools/run-python-tests.cjs",
+      "sizeBytes": 335,
+      "sha256": "5d02809aac5d72c6e94123b6789e6cb91b5a8711503d4e8b8e51068b8861c391"
+    },
+    {
+      "path": "tools/run-tests.cjs",
+      "sizeBytes": 1757,
+      "sha256": "bc50e598aa738a45758f1fbdce7030d186206a10f034726f0bb70d3c680d630f"
+    },
+    {
+      "path": "tools/runtime-config.cjs",
+      "sizeBytes": 951,
+      "sha256": "c86d29b37a984e4cbaaa6b46cc4cd55f97bde2220a0c53cb21d26f49f0201eff"
+    },
+    {
+      "path": "tools/safe-upgrade.cjs",
+      "sizeBytes": 8467,
+      "sha256": "3ae0c0f6fef1348fd527c6b67ca42a9c22bfbc20b088f9b44bc2a79e89c8cf4b"
+    },
+    {
+      "path": "tools/v25-read-xlsx.py",
+      "sizeBytes": 3010,
+      "sha256": "2dfc87cc76a04af3fdea49673a946de84b9b16241992a855aebf557b9e9fd29a"
+    },
+    {
+      "path": "tools/v25-staging.cjs",
+      "sizeBytes": 3892,
+      "sha256": "b42d49e5549062dedf97c15a98fca3be75165694b6c27bc66771aee4307b27f6"
+    },
+    {
+      "path": "tools/windows-service-host.cjs",
+      "sizeBytes": 416,
+      "sha256": "52c15d79b82eb881e8127fb669c4cd75e0adbadc5a5f7a5a387e4d3101d2c179"
+    }
+  ]
+}
